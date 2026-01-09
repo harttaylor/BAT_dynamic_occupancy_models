@@ -16,8 +16,8 @@ library(ggplot2)
 
 test_species <- "MYLU"
 
-n_iter <- 1000
-n_burnin <- 500
+n_iter <- 20000
+n_burnin <- 10000
 n_thin <- 5
 n_chains <- 3
 
@@ -382,12 +382,6 @@ cat("\nCalculating Bayesian p-value...\n")
 bpv_result <- calculate_bpv(cov_out, y, J, nsurv)
 cat("Bayesian p-value:", round(bpv_result$bpv, 3), "\n")
 
-if(bpv_result$bpv > 0.1 & bpv_result$bpv < 0.9) {
-  cat("  Interpretation: Adequate model fit\n")
-} else {
-  cat("  Interpretation: Potential lack of fit - investigate further\n")
-}
-
 saveRDS(bpv_result, paste0("output/", test_species, "_bpv.rds"))
 
 # ===== PLOT 1: OCCUPANCY TREND (from null model) =====
@@ -416,7 +410,7 @@ p1 <- ggplot(trend_df, aes(x = year, y = psi)) +
   theme(plot.title = element_text(face = "bold"))
 
 print(p1)
-ggsave(paste0("output/", test_species, "_occupancy_trend.png"), p1, width = 10, height = 6)
+ggsave(paste0("outputs/", test_species, "_occupancy_trend.png"), p1, width = 10, height = 6)
 
 # ===== PLOT 2: DYNAMICS (from null model) - PERSISTENCE VERSION =====
 
@@ -458,7 +452,7 @@ p2 <- ggplot(dynamics_long, aes(x = year, y = value, color = rate, fill = rate))
   theme(plot.title = element_text(face = "bold"), legend.position = "bottom")
 
 print(p2)
-ggsave(paste0("output/", test_species, "_dynamics.png"), p2, width = 10, height = 6)
+ggsave(paste0("outputs/", test_species, "_dynamics.png"), p2, width = 10, height = 6)
 
 
 # ===== PLOT 3: COVARIATE EFFECTS (from covariate model) =====
@@ -492,55 +486,5 @@ p3 <- ggplot(effects_df, aes(x = reorder(label, mean), y = mean, color = signifi
   theme(plot.title = element_text(face = "bold"), legend.position = "bottom")
 
 print(p3)
-ggsave(paste0("output/", test_species, "_covariate_effects.png"), p3, width = 8, height = 6)
+ggsave(paste0("outputs/", test_species, "_covariate_effects.png"), p3, width = 8, height = 6)
 
-# ===== PLOT 5: REGIONAL TRENDS (if available) =====
-
-if(!is.null(site_info) && "region" %in% names(site_info) && length(unique(site_info$region)) > 1) {
-  
-  z_mean <- cov_out$mean$z
-  
-  regional_df <- data.frame()
-  
-  for(k in 1:nyear) {
-    region_occ <- data.frame(
-      site = site_info$site,
-      region = site_info$region,
-      z = z_mean[, k],
-      year = years[k]
-    ) %>%
-      group_by(region, year) %>%
-      summarize(
-        mean_occ = mean(z),
-        n_sites = n(),
-        .groups = "drop"
-      )
-    
-    regional_df <- bind_rows(regional_df, region_occ)
-  }
-  
-  p5 <- ggplot(regional_df, aes(x = year, y = mean_occ, color = region)) +
-    geom_line(linewidth = 1) +
-    geom_point(size = 2) +
-    scale_y_continuous(limits = c(0, 1)) +
-    scale_x_continuous(breaks = years) +
-    labs(x = "Year", y = "Mean occupancy probability",
-         title = paste(test_species, "- Regional Occupancy Trends"),
-         color = "Region") +
-    theme_classic(base_size = 12) +
-    theme(plot.title = element_text(face = "bold"))
-  
-  print(p5)
-  ggsave(paste0("output/", test_species, "_regional_trends.png"), p5, width = 10, height = 6)
-  cat("Saved: regional_trends.png\n")
-}
-
-cat("\n=== ANALYSIS COMPLETE ===\n")
-cat("Saved to output/:\n")
-cat("  ", test_species, "_null.rds\n")
-cat("  ", test_species, "_cov.rds\n")
-cat("  ", test_species, "_bpv.rds\n")
-cat("  ", test_species, "_occupancy_trend.png\n")
-cat("  ", test_species, "_dynamics.png\n")
-cat("  ", test_species, "_covariate_effects.png\n")
-cat("  ", test_species, "_bpv_plot.png\n")
