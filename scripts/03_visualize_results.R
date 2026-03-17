@@ -27,7 +27,7 @@ library(tidyr)
 # SETTINGS — change MODE and re-run for each analysis
 # ============================================================================
 
-MODE <- "BCAK"   # "BC" or "BCAK"
+MODE <- "BC"   # "BC" or "BCAK"
 
 INPUT_DIR <- file.path("outputs", MODE, "fits")
 DATA_DIR  <- file.path("data/processed", MODE)
