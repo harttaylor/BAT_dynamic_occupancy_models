@@ -1,0 +1,74 @@
+RESULTS: LACI (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.09 (0.95, 1.26) -> STABLE (no clear trend)
+  Trend slope = 0.0004 (-0.0086, 0.0095)
+  Occupancy: 0.61 (2017) -> 0.67 (2025)
+
+DYNAMICS
+  Colonization: 0.230 (0.183, 0.282)
+  Persistence:  0.836 (0.795, 0.875)
+  Extinction:   0.164
+
+DETECTION
+  Mean p = 0.544 (0.520, 0.569)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  gamma: Dist to Road: -0.544 (-0.976, -0.193) [-]
+  p: Temperature: 0.290 (0.193, 0.387) [+]
+  p: Julian: 0.234 (0.137, 0.328) [+]
+
+CONVERGENCE
+  Max Rhat: 1.003 | Min n.eff: 1215

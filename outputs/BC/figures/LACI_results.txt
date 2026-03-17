@@ -1,0 +1,73 @@
+RESULTS: LACI (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.05 (0.91, 1.20) -> STABLE (no clear trend)
+  Trend slope = -0.0020 (-0.0118, 0.0076)
+  Occupancy: 0.66 (2017) -> 0.69 (2025)
+
+DYNAMICS
+  Colonization: 0.267 (0.211, 0.332)
+  Persistence:  0.835 (0.796, 0.871)
+  Extinction:   0.165
+
+DETECTION
+  Mean p = 0.544 (0.520, 0.568)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Temperature: 0.297 (0.199, 0.394) [+]
+  p: Julian: 0.239 (0.145, 0.333) [+]
+
+CONVERGENCE
+  Max Rhat: 1.074 | Min n.eff: 1

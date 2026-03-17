@@ -1,0 +1,77 @@
+RESULTS: MYCA (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.19 (1.03, 1.38) -> INCREASE
+  Trend slope = 0.0166 (0.0081, 0.0249)
+  Occupancy: 0.60 (2017) -> 0.71 (2025)
+
+DYNAMICS
+  Colonization: 0.280 (0.228, 0.335)
+  Persistence:  0.873 (0.843, 0.900)
+  Extinction:   0.127
+
+DETECTION
+  Mean p = 0.662 (0.642, 0.682)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  psi: Elevation: -0.837 (-1.623, -0.113) [-]
+  psi: Water Nearby: 1.784 (0.552, 3.265) [+]
+  gamma: Dist to Harvest: -0.370 (-0.858, -0.049) [-]
+  p: Clutter: 0.210 (0.120, 0.303) [+]
+  p: Temperature: 0.216 (0.118, 0.318) [+]
+  p: Julian: -0.149 (-0.236, -0.063) [-]
+
+CONVERGENCE
+  Max Rhat: 1.291 | Min n.eff: 1

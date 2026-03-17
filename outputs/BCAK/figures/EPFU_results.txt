@@ -1,0 +1,74 @@
+RESULTS: EPFU (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.06 (0.91, 1.23) -> STABLE (no clear trend)
+  Trend slope = 0.0124 (0.0027, 0.0219)
+  Occupancy: 0.71 (2017) -> 0.75 (2025)
+
+DYNAMICS
+  Colonization: 0.245 (0.194, 0.301)
+  Persistence:  0.841 (0.801, 0.877)
+  Extinction:   0.159
+
+DETECTION
+  Mean p = 0.594 (0.572, 0.615)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  gamma: Dist to Road: -0.280 (-0.575, -0.023) [-]
+  phi: Dist to Road: -1.278 (-2.006, -0.628) [-]
+  p: Temperature: 0.362 (0.268, 0.457) [+]
+
+CONVERGENCE
+  Max Rhat: 1.008 | Min n.eff: 383

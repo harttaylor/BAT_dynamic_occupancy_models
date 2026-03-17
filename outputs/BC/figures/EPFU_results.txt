@@ -1,0 +1,73 @@
+RESULTS: EPFU (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.05 (0.91, 1.22) -> STABLE (no clear trend)
+  Trend slope = 0.0128 (0.0032, 0.0226)
+  Occupancy: 0.74 (2017) -> 0.78 (2025)
+
+DYNAMICS
+  Colonization: 0.279 (0.222, 0.340)
+  Persistence:  0.861 (0.828, 0.892)
+  Extinction:   0.139
+
+DETECTION
+  Mean p = 0.596 (0.575, 0.617)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  phi: Dist to Road: -0.662 (-1.079, -0.305) [-]
+  p: Temperature: 0.368 (0.274, 0.465) [+]
+
+CONVERGENCE
+  Max Rhat: 1.126 | Min n.eff: 1

@@ -1,0 +1,73 @@
+RESULTS: MYEV (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.25 (1.06, 1.49) -> INCREASE
+  Trend slope = 0.0270 (0.0173, 0.0368)
+  Occupancy: 0.69 (2017) -> 0.86 (2025)
+
+DYNAMICS
+  Colonization: 0.505 (0.415, 0.598)
+  Persistence:  0.862 (0.828, 0.894)
+  Extinction:   0.138
+
+DETECTION
+  Mean p = 0.577 (0.557, 0.597)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  gamma: Dist to Harvest: -1.324 (-2.198, -0.687) [-]
+  p: Clutter: 0.091 (0.010, 0.175) [+]
+
+CONVERGENCE
+  Max Rhat: 1.291 | Min n.eff: 1

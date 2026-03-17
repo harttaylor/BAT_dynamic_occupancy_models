@@ -1,0 +1,72 @@
+RESULTS: PAHE (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.45 (0.38, 4.43) -> STABLE (no clear trend)
+  Trend slope = 0.0047 (-0.0471, 0.0564)
+  Occupancy: 0.53 (2017) -> 0.59 (2025)
+
+DYNAMICS
+  Colonization: 0.473 (0.282, 0.677)
+  Persistence:  0.461 (0.261, 0.667)
+  Extinction:   0.539
+
+DETECTION
+  Mean p = 0.005 (0.002, 0.009)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  None
+
+CONVERGENCE
+  Max Rhat: 1.032 | Min n.eff: 81

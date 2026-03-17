@@ -1,0 +1,72 @@
+RESULTS: MYTH (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.03 (0.65, 1.56) -> STABLE (no clear trend)
+  Trend slope = 0.0010 (-0.0069, 0.0088)
+  Occupancy: 0.19 (2017) -> 0.19 (2025)
+
+DYNAMICS
+  Colonization: 0.044 (0.029, 0.061)
+  Persistence:  0.793 (0.708, 0.870)
+  Extinction:   0.207
+
+DETECTION
+  Mean p = 0.330 (0.277, 0.385)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Clutter: -0.405 (-0.642, -0.171) [-]
+
+CONVERGENCE
+  Max Rhat: 1.291 | Min n.eff: 1

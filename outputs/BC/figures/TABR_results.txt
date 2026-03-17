@@ -1,0 +1,72 @@
+RESULTS: TABR (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 3.13 (0.17, 12.61) -> STABLE (no clear trend)
+  Trend slope = -0.0136 (-0.0645, 0.0355)
+  Occupancy: 0.38 (2017) -> 0.36 (2025)
+
+DYNAMICS
+  Colonization: 0.434 (0.217, 0.648)
+  Persistence:  0.525 (0.337, 0.705)
+  Extinction:   0.475
+
+DETECTION
+  Mean p = 0.007 (0.003, 0.013)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Clutter: -0.669 (-1.303, -0.084) [-]
+
+CONVERGENCE
+  Max Rhat: 1.080 | Min n.eff: 1

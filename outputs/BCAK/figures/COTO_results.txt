@@ -1,0 +1,74 @@
+RESULTS: COTO (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.57 (0.93, 2.58) -> STABLE (no clear trend)
+  Trend slope = 0.0169 (0.0062, 0.0272)
+  Occupancy: 0.19 (2017) -> 0.29 (2025)
+
+DYNAMICS
+  Colonization: 0.112 (0.082, 0.145)
+  Persistence:  0.774 (0.666, 0.867)
+  Extinction:   0.226
+
+DETECTION
+  Mean p = 0.301 (0.265, 0.338)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  gamma: Dist to Road: -0.692 (-1.335, -0.182) [-]
+  p: Temperature: 0.151 (0.003, 0.300) [+]
+  p: Julian: -0.434 (-0.595, -0.273) [-]
+
+CONVERGENCE
+  Max Rhat: 1.006 | Min n.eff: 373

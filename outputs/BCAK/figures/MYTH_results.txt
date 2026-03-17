@@ -1,0 +1,72 @@
+RESULTS: MYTH (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.02 (0.64, 1.55) -> STABLE (no clear trend)
+  Trend slope = 0.0013 (-0.0063, 0.0092)
+  Occupancy: 0.19 (2017) -> 0.18 (2025)
+
+DYNAMICS
+  Colonization: 0.041 (0.027, 0.057)
+  Persistence:  0.776 (0.688, 0.852)
+  Extinction:   0.224
+
+DETECTION
+  Mean p = 0.321 (0.267, 0.377)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Clutter: -0.419 (-0.659, -0.195) [-]
+
+CONVERGENCE
+  Max Rhat: 1.005 | Min n.eff: 604

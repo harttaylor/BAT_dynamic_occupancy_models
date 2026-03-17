@@ -1,0 +1,73 @@
+RESULTS: MYYU (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.39 (1.14, 1.71) -> INCREASE
+  Trend slope = 0.0148 (0.0062, 0.0232)
+  Occupancy: 0.42 (2017) -> 0.57 (2025)
+
+DYNAMICS
+  Colonization: 0.157 (0.122, 0.195)
+  Persistence:  0.863 (0.823, 0.901)
+  Extinction:   0.137
+
+DETECTION
+  Mean p = 0.638 (0.611, 0.663)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  psi: Elevation: -1.888 (-2.883, -1.027) [-]
+  p: Julian: 0.121 (0.024, 0.224) [+]
+
+CONVERGENCE
+  Max Rhat: 1.292 | Min n.eff: 1

@@ -1,0 +1,97 @@
+
+model {
+  
+  # ===== PRIORS =====
+  
+  # Initial occupancy: intercept + elevation + water
+  for(b in 1:nbeta.psi) {
+    beta.psi[b] ~ dnorm(0, 0.368)
+  }
+  
+  # Region random effect on initial occupancy
+  sigma.region ~ dunif(0, 5)
+  tau.region <- 1 / (sigma.region * sigma.region)
+  for(r in 1:nregion) {
+    u.region[r] ~ dnorm(0, tau.region)
+  }
+  
+  # Colonization: year-specific intercepts + distance effects
+  for(t in 1:(nyear-1)) {
+    alpha.gamma[t] ~ dnorm(0, 0.368)
+  }
+  # Distance effects on colonization (shared across years)
+  beta.col.road ~ dnorm(0, 0.368)
+  beta.col.harvest ~ dnorm(0, 0.368)
+  
+  # Persistence: year-specific intercepts + distance effects
+  for(t in 1:(nyear-1)) {
+    alpha.phi[t] ~ dnorm(0, 0.368)
+  }
+  # Distance effects on persistence (shared across years)
+  beta.per.road ~ dnorm(0, 0.368)
+  beta.per.harvest ~ dnorm(0, 0.368)
+  
+  # Detection coefficients
+  for(b in 1:nbeta.p) {
+    beta.p[b] ~ dnorm(0, 0.368)
+  }
+  
+  # ===== STATE PROCESS =====
+  
+  for(i in 1:nsite) {
+    # Initial occupancy
+    logit(psi[i]) <- inprod(beta.psi[], x.psi[i,]) + u.region[region[i]]
+    z[i, 1] ~ dbern(psi[i])
+    
+    # Dynamics with distance covariates
+    for(k in 2:nyear) {
+      # Colonization: year intercept + distance effects
+      logit(gamma[i, k-1]) <- alpha.gamma[k-1] + 
+                              beta.col.road * x.col[i, 2] + 
+                              beta.col.harvest * x.col[i, 3]
+      
+      # Persistence: year intercept + distance effects
+      logit(phi[i, k-1]) <- alpha.phi[k-1] + 
+                            beta.per.road * x.per[i, 2] + 
+                            beta.per.harvest * x.per[i, 3]
+      
+      muZ[i, k] <- z[i, k-1] * phi[i, k-1] + (1 - z[i, k-1]) * gamma[i, k-1]
+      z[i, k] ~ dbern(muZ[i, k])
+    }
+  }
+  
+  # ===== OBSERVATION PROCESS =====
+  
+  for(i in 1:nsite) {
+    for(k in 1:nyear) {
+      for(j in 1:J[i, k]) {
+        logit(p[i, k, j]) <- inprod(beta.p[], x.p[i, k, nsurv[i, k, j], ])
+        y[i, k, nsurv[i, k, j]] ~ dbern(z[i, k] * p[i, k, j])
+      }
+    }
+  }
+  
+  # ===== DERIVED QUANTITIES =====
+  
+  # Annual occupancy
+  for(k in 1:nyear) {
+    psi.fs[k] <- mean(z[, k])
+    n.occ[k] <- sum(z[, k])
+  }
+  
+  # Mean colonization and persistence at average covariate values (x=0)
+  for(t in 1:(nyear-1)) {
+    gamma.avg[t] <- ilogit(alpha.gamma[t])
+    phi.avg[t] <- ilogit(alpha.phi[t])
+  }
+  mean.gamma <- mean(gamma.avg[])
+  mean.phi <- mean(phi.avg[])
+  mean.ext <- 1 - mean.phi
+  
+  # Overall trend
+  lambda <- psi.fs[nyear] / max(psi.fs[1], 0.001)
+  
+  # Mean detection at average covariates
+  mean.p <- ilogit(beta.p[1])
+}
+

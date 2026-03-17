@@ -1,0 +1,72 @@
+RESULTS: ANPA (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 57.76 (2.80, 270.72) -> INCREASE
+  Trend slope = 0.0165 (0.0082, 0.0285)
+  Occupancy: 0.02 (2017) -> 0.21 (2025)
+
+DYNAMICS
+  Colonization: 0.064 (0.039, 0.104)
+  Persistence:  0.465 (0.295, 0.635)
+  Extinction:   0.535
+
+DETECTION
+  Mean p = 0.210 (0.111, 0.329)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Temperature: 0.461 (0.027, 0.893) [+]
+
+CONVERGENCE
+  Max Rhat: 1.144 | Min n.eff: 1

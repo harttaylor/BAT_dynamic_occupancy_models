@@ -1,0 +1,74 @@
+RESULTS: MYVO (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.48 (1.22, 1.84) -> INCREASE
+  Trend slope = 0.0281 (0.0184, 0.0380)
+  Occupancy: 0.55 (2017) -> 0.81 (2025)
+
+DYNAMICS
+  Colonization: 0.435 (0.375, 0.497)
+  Persistence:  0.837 (0.803, 0.869)
+  Extinction:   0.163
+
+DETECTION
+  Mean p = 0.606 (0.585, 0.627)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Clutter: 0.175 (0.084, 0.265) [+]
+  p: Temperature: 0.146 (0.055, 0.240) [+]
+  p: Julian: 0.145 (0.062, 0.230) [+]
+
+CONVERGENCE
+  Max Rhat: 1.134 | Min n.eff: 1

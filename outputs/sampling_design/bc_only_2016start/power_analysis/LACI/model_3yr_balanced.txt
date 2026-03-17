@@ -1,0 +1,77 @@
+
+model {
+  
+  # === PRIORS ===
+  
+  for(b in 1:nbeta.psi) {
+    beta.psi[b] ~ dnorm(0, 0.368)
+  }
+  
+  sigma.region ~ dunif(0, 5)
+  tau.region <- 1 / (sigma.region * sigma.region)
+  for(r in 1:nregion) {
+    u.region[r] ~ dnorm(0, tau.region)
+  }
+  
+  for(t in 1:(nyear-1)) {
+    alpha.gamma[t] ~ dnorm(0, 0.368)
+  }
+  beta.col.road ~ dnorm(0, 0.368)
+  beta.col.harvest ~ dnorm(0, 0.368)
+  
+  for(t in 1:(nyear-1)) {
+    alpha.phi[t] ~ dnorm(0, 0.368)
+  }
+  beta.per.road ~ dnorm(0, 0.368)
+  beta.per.harvest ~ dnorm(0, 0.368)
+  
+  for(b in 1:nbeta.p) {
+    beta.p[b] ~ dnorm(0, 0.368)
+  }
+  
+  # === STATE PROCESS ===
+  
+  for(i in 1:nsite) {
+    logit(psi[i]) <- inprod(beta.psi[], x.psi[i,]) + u.region[region[i]]
+    z[i, 1] ~ dbern(psi[i])
+    
+    for(k in 2:nyear) {
+      logit(gamma[i, k-1]) <- alpha.gamma[k-1] + 
+                              beta.col.road * x.col[i, 2] + 
+                              beta.col.harvest * x.col[i, 3]
+      logit(phi[i, k-1]) <- alpha.phi[k-1] + 
+                            beta.per.road * x.per[i, 2] + 
+                            beta.per.harvest * x.per[i, 3]
+      muZ[i, k] <- z[i, k-1] * phi[i, k-1] + (1 - z[i, k-1]) * gamma[i, k-1]
+      z[i, k] ~ dbern(muZ[i, k])
+    }
+  }
+  
+  # === OBSERVATION PROCESS ===
+  
+  for(i in 1:nsite) {
+    for(k in 1:nyear) {
+      for(j in 1:J[i, k]) {
+        logit(p[i, k, j]) <- inprod(beta.p[], x.p[i, k, nsurv[i, k, j], ])
+        y[i, k, nsurv[i, k, j]] ~ dbern(z[i, k] * p[i, k, j])
+      }
+    }
+  }
+  
+  # === DERIVED ===
+  
+  for(k in 1:nyear) {
+    psi.fs[k] <- mean(z[, k])
+  }
+  
+  for(t in 1:(nyear-1)) {
+    gamma.avg[t] <- ilogit(alpha.gamma[t])
+    phi.avg[t] <- ilogit(alpha.phi[t])
+  }
+  
+  mean.gamma <- mean(gamma.avg[])
+  mean.phi <- mean(phi.avg[])
+  lambda <- psi.fs[nyear] / max(psi.fs[1], 0.001)
+  mean.p <- ilogit(beta.p[1])
+}
+

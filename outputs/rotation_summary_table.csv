@@ -1,0 +1,21 @@
+species,scenario_label,n_sites,n_observations,lambda_str,trend_sig_str
+LABO,2-Year (N+K|O+P),197,3225,0.54 (0.45-0.66),*
+LABO,3-Year (N|K+O|P),195,2977,0.50 (0.40-0.63),*
+LABO,4-Year (N|K|O|P),192,2893,0.56 (0.46-0.70),*
+LABO,Full Annual,217,3879,0.53 (0.44-0.65),*
+LACI,2-Year (N+K|O+P),197,3225,1.04 (0.87-1.28),
+LACI,3-Year (N|K+O|P),195,2977,1.10 (0.91-1.36),
+LACI,4-Year (N|K|O|P),192,2893,1.03 (0.85-1.27),
+LACI,Full Annual,217,3879,1.06 (0.89-1.29),
+LANO,2-Year (N+K|O+P),197,3225,1.00 (0.92-1.11),
+LANO,3-Year (N|K+O|P),195,2977,1.04 (0.94-1.16),
+LANO,4-Year (N|K|O|P),192,2893,1.02 (0.93-1.13),
+LANO,Full Annual,217,3879,1.03 (0.94-1.16),
+MYLU,2-Year (N+K|O+P),197,3225,1.01 (0.94-1.11),
+MYLU,3-Year (N|K+O|P),195,2977,1.01 (0.93-1.11),
+MYLU,4-Year (N|K|O|P),192,2893,1.01 (0.94-1.12),
+MYLU,Full Annual,217,3879,1.02 (0.95-1.14),
+MYSE,2-Year (N+K|O+P),197,3225,0.87 (0.52-1.42),
+MYSE,3-Year (N|K+O|P),195,2977,0.78 (0.46-1.28),
+MYSE,4-Year (N|K|O|P),192,2893,0.96 (0.56-1.56),
+MYSE,Full Annual,217,3879,0.86 (0.52-1.36),

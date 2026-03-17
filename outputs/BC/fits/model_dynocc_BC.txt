@@ -1,0 +1,64 @@
+
+model {
+  beta.psi[1] ~ dnorm(0, 0.368)
+  beta.psi[2] ~ dnorm(0, 0.368)
+  beta.psi[3] ~ dnorm(0, 0.368)
+
+  sigma.region ~ dunif(0, 5)
+  tau.region <- 1 / (sigma.region * sigma.region)
+  for (r in 1:nregion) { u.region[r] ~ dnorm(0, tau.region) }
+
+  for (t in 1:(nyear-1)) { alpha.gamma[t] ~ dnorm(0, 0.368) }
+  beta.gamma[1] ~ dnorm(0, 0.368)
+  beta.gamma[2] ~ dnorm(0, 0.368)
+
+  for (t in 1:(nyear-1)) { alpha.phi[t] ~ dnorm(0, 0.368) }
+  beta.phi[1] ~ dnorm(0, 0.368)
+  beta.phi[2] ~ dnorm(0, 0.368)
+
+  for (k in 1:4) { beta.p[k] ~ dnorm(0, 0.368) }
+
+  for (i in 1:nsite) {
+    logit(psi[i]) <- beta.psi[1] + beta.psi[2]*elevation[i] +
+                     beta.psi[3]*water[i] + u.region[region[i]]
+    z[i, 1] ~ dbern(psi[i])
+    for (t in 2:nyear) {
+      logit(gamma[i, t-1]) <- alpha.gamma[t-1] +
+                              beta.gamma[1]*dist_road[i] +
+                              beta.gamma[2]*dist_harvest[i]
+      logit(phi[i, t-1])   <- alpha.phi[t-1] +
+                              beta.phi[1]*dist_road[i] +
+                              beta.phi[2]*dist_harvest[i]
+      muZ[i, t] <- z[i, t-1]*phi[i, t-1] + (1 - z[i, t-1])*gamma[i, t-1]
+      z[i, t] ~ dbern(muZ[i, t])
+    }
+  }
+
+  for (i in 1:nsite) {
+    for (t in 1:nyear) {
+      for (j in 1:J[i, t]) {
+        logit(p[i, t, j]) <- beta.p[1] +
+                             beta.p[2]*clutter[i, t, nsurv[i, t, j]] +
+                             beta.p[3]*temp[i, t, nsurv[i, t, j]] +
+                             beta.p[4]*julian[i, t, nsurv[i, t, j]]
+        y[i, t, nsurv[i, t, j]] ~ dbern(z[i, t] * p[i, t, j])
+      }
+    }
+  }
+
+  for (t in 1:nyear) { psi.fs[t] <- mean(z[, t]); n.occ[t] <- sum(z[, t]) }
+  for (t in 1:(nyear-1)) {
+    gamma.avg[t] <- ilogit(alpha.gamma[t])
+    phi.avg[t]   <- ilogit(alpha.phi[t])
+    ext.avg[t]   <- 1 - phi.avg[t]
+  }
+  mean.gamma <- mean(gamma.avg[])
+  mean.phi   <- mean(phi.avg[])
+  mean.ext   <- 1 - mean.phi
+  lambda     <- psi.fs[nyear] / max(psi.fs[1], 0.001)
+  for (t in 1:nyear) { year.centered[t] <- t - (nyear + 1) / 2 }
+  trend.slope <- sum(year.centered[] * psi.fs[]) /
+                 sum(year.centered[] * year.centered[])
+  mean.p <- ilogit(beta.p[1])
+}
+

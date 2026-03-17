@@ -1,0 +1,73 @@
+RESULTS: LABO (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 2.80 (1.71, 4.52) -> INCREASE
+  Trend slope = 0.0346 (0.0219, 0.0471)
+  Occupancy: 0.22 (2017) -> 0.59 (2025)
+
+DYNAMICS
+  Colonization: 0.169 (0.134, 0.209)
+  Persistence:  0.600 (0.473, 0.724)
+  Extinction:   0.400
+
+DETECTION
+  Mean p = 0.301 (0.255, 0.348)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Temperature: 0.203 (0.007, 0.406) [+]
+  p: Julian: 0.335 (0.186, 0.483) [+]
+
+CONVERGENCE
+  Max Rhat: 1.134 | Min n.eff: 1

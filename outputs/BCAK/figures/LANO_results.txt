@@ -1,0 +1,75 @@
+RESULTS: LANO (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.05 (0.95, 1.17) -> STABLE (no clear trend)
+  Trend slope = 0.0085 (0.0009, 0.0160)
+  Occupancy: 0.82 (2017) -> 0.85 (2025)
+
+DYNAMICS
+  Colonization: 0.431 (0.346, 0.522)
+  Persistence:  0.923 (0.903, 0.941)
+  Extinction:   0.077
+
+DETECTION
+  Mean p = 0.771 (0.756, 0.786)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  gamma: Dist to Road: -0.489 (-0.905, -0.155) [-]
+  phi: Dist to Road: -0.422 (-0.729, -0.067) [-]
+  p: Temperature: 0.466 (0.364, 0.570) [+]
+  p: Julian: 0.182 (0.092, 0.270) [+]
+
+CONVERGENCE
+  Max Rhat: 1.006 | Min n.eff: 447

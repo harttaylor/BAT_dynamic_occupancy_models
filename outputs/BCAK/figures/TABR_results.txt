@@ -1,0 +1,72 @@
+RESULTS: TABR (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.98 (0.16, 7.09) -> STABLE (no clear trend)
+  Trend slope = -0.0147 (-0.0675, 0.0363)
+  Occupancy: 0.44 (2017) -> 0.39 (2025)
+
+DYNAMICS
+  Colonization: 0.444 (0.219, 0.664)
+  Persistence:  0.517 (0.332, 0.699)
+  Extinction:   0.483
+
+DETECTION
+  Mean p = 0.006 (0.003, 0.012)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Clutter: -0.678 (-1.314, -0.096) [-]
+
+CONVERGENCE
+  Max Rhat: 1.210 | Min n.eff: 36

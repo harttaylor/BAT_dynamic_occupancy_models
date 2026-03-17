@@ -1,0 +1,76 @@
+RESULTS: MYSE (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.62 (1.00, 2.61) -> STABLE (no clear trend)
+  Trend slope = 0.0134 (0.0036, 0.0235)
+  Occupancy: 0.21 (2017) -> 0.33 (2025)
+
+DYNAMICS
+  Colonization: 0.061 (0.041, 0.083)
+  Persistence:  0.752 (0.627, 0.860)
+  Extinction:   0.248
+
+DETECTION
+  Mean p = 0.333 (0.272, 0.399)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  gamma: Dist to Harvest: -0.932 (-2.052, -0.041) [-]
+  phi: Dist to Harvest: 0.848 (0.126, 2.257) [+]
+  p: Clutter: 0.381 (0.111, 0.653) [+]
+  p: Temperature: 0.320 (0.059, 0.591) [+]
+  p: Julian: -0.270 (-0.468, -0.075) [-]
+
+CONVERGENCE
+  Max Rhat: 1.291 | Min n.eff: 1

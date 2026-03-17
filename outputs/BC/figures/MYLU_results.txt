@@ -1,0 +1,74 @@
+RESULTS: MYLU (BC)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 181 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.09 (1.02, 1.18) -> INCREASE
+  Trend slope = 0.0140 (0.0086, 0.0199)
+  Occupancy: 0.89 (2017) -> 0.97 (2025)
+
+DYNAMICS
+  Colonization: 0.623 (0.498, 0.749)
+  Persistence:  0.948 (0.932, 0.962)
+  Extinction:   0.052
+
+DETECTION
+  Mean p = 0.825 (0.811, 0.838)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Clutter: 0.104 (0.009, 0.199) [+]
+  p: Temperature: 0.257 (0.154, 0.362) [+]
+  p: Julian: 0.263 (0.171, 0.356) [+]
+
+CONVERGENCE
+  Max Rhat: 1.291 | Min n.eff: 1

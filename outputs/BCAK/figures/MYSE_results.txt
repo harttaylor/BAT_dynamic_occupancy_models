@@ -1,0 +1,74 @@
+RESULTS: MYSE (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 1.80 (1.10, 2.92) -> INCREASE
+  Trend slope = 0.0153 (0.0054, 0.0255)
+  Occupancy: 0.20 (2017) -> 0.34 (2025)
+
+DYNAMICS
+  Colonization: 0.063 (0.043, 0.085)
+  Persistence:  0.797 (0.690, 0.885)
+  Extinction:   0.203
+
+DETECTION
+  Mean p = 0.306 (0.253, 0.367)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Clutter: 0.359 (0.081, 0.638) [+]
+  p: Temperature: 0.324 (0.080, 0.568) [+]
+  p: Julian: -0.288 (-0.483, -0.096) [-]
+
+CONVERGENCE
+  Max Rhat: 1.006 | Min n.eff: 390

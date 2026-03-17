@@ -1,0 +1,72 @@
+RESULTS: ANPA (BC + Alaska)
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Data: 195 sites, 9 years (2017-2025)
+
+TREND
+  lambda = 44.03 (2.25, 251.28) -> INCREASE
+  Trend slope = 0.0156 (0.0074, 0.0265)
+  Occupancy: 0.02 (2017) -> 0.20 (2025)
+
+DYNAMICS
+  Colonization: 0.062 (0.040, 0.096)
+  Persistence:  0.461 (0.299, 0.631)
+  Extinction:   0.539
+
+DETECTION
+  Mean p = 0.213 (0.122, 0.329)
+
+SIGNIFICANT COVARIATE EFFECTS (95% CI excludes 0)
+  p: Temperature: 0.431 (0.002, 0.842) [+]
+
+CONVERGENCE
+  Max Rhat: 1.015 | Min n.eff: 286
