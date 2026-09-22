@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"MYTH","BC (all sites)","Colonization",2018,0.0135,0,0.0629
+"MYTH","BC (all sites)","Colonization",2019,0.0129,0,0.0625
+"MYTH","BC (all sites)","Colonization",2020,0.01,0,0.0488
+"MYTH","BC (all sites)","Colonization",2021,0.0277,0,0.0667
+"MYTH","BC (all sites)","Colonization",2022,0.0358,0,0.0843
+"MYTH","BC (all sites)","Colonization",2023,0.0189,0,0.0503
+"MYTH","BC (all sites)","Colonization",2024,0.0733,0.037,0.135
+"MYTH","BC (all sites)","Colonization",2025,0.0758,0.0201,0.1344
+"MYTH","BC (all sites)","Persistence",2018,0.661,0.4068,0.8837
+"MYTH","BC (all sites)","Persistence",2019,0.8666,0.6765,1
+"MYTH","BC (all sites)","Persistence",2020,0.7993,0.5676,0.9667
+"MYTH","BC (all sites)","Persistence",2021,0.7228,0.5,0.8889
+"MYTH","BC (all sites)","Persistence",2022,0.9253,0.7667,1
+"MYTH","BC (all sites)","Persistence",2023,0.7294,0.5926,0.8519
+"MYTH","BC (all sites)","Persistence",2024,0.7761,0.55,1
+"MYTH","BC (all sites)","Persistence",2025,0.7,0.5,0.875
+"MYTH","Kootenay Region","Colonization",2018,0.0272,0,0.1471
+"MYTH","Kootenay Region","Colonization",2019,0.0295,0,0.1562
+"MYTH","Kootenay Region","Colonization",2020,0.0229,0,0.125
+"MYTH","Kootenay Region","Colonization",2021,0.0352,0,0.1333
+"MYTH","Kootenay Region","Colonization",2022,0.0753,0,0.1875
+"MYTH","Kootenay Region","Colonization",2023,0.022,0,0.1034
+"MYTH","Kootenay Region","Colonization",2024,0.0799,0.0312,0.1875
+"MYTH","Kootenay Region","Colonization",2025,0.0737,0,0.2
+"MYTH","Kootenay Region","Persistence",2018,0.8067,0.4444,1
+"MYTH","Kootenay Region","Persistence",2019,0.8992,0.6,1
+"MYTH","Kootenay Region","Persistence",2020,0.7869,0.4,1
+"MYTH","Kootenay Region","Persistence",2021,0.7886,0.5,1
+"MYTH","Kootenay Region","Persistence",2022,0.9109,0.625,1
+"MYTH","Kootenay Region","Persistence",2023,0.777,0.5714,0.9091
+"MYTH","Kootenay Region","Persistence",2024,0.806,0.4,1
+"MYTH","Kootenay Region","Persistence",2025,0.8226,0.5,1
+"MYTH","Northern Region","Colonization",2018,0.0032,0,0.0342
+"MYTH","Northern Region","Colonization",2019,0.0029,0,0.0333
+"MYTH","Northern Region","Colonization",2020,0.002,0,0.0172
+"MYTH","Northern Region","Colonization",2021,0.0047,0,0.0333
+"MYTH","Northern Region","Colonization",2022,0.0044,0,0.0333
+"MYTH","Northern Region","Colonization",2023,0.0034,0,0.0333
+"MYTH","Northern Region","Colonization",2024,0.0092,0,0.05
+"MYTH","Northern Region","Colonization",2025,0.023,0,0.0667
+"MYTH","Northern Region","Persistence",2018,0.1957,0,1
+"MYTH","Northern Region","Persistence",2019,0.4,0,1
+"MYTH","Northern Region","Persistence",2020,NA,NA,NA
+"MYTH","Northern Region","Persistence",2021,NA,NA,NA
+"MYTH","Northern Region","Persistence",2022,NA,NA,NA
+"MYTH","Northern Region","Persistence",2023,NA,NA,NA
+"MYTH","Northern Region","Persistence",2024,NA,NA,NA
+"MYTH","Northern Region","Persistence",2025,NA,NA,NA
+"MYTH","Okanagan Region","Colonization",2018,0.0467,0,0.2857
+"MYTH","Okanagan Region","Colonization",2019,0.0306,0,0.2
+"MYTH","Okanagan Region","Colonization",2020,0.0217,0,0.152
+"MYTH","Okanagan Region","Colonization",2021,0.0417,0,0.1667
+"MYTH","Okanagan Region","Colonization",2022,0.1043,0,0.2609
+"MYTH","Okanagan Region","Colonization",2023,0.0455,0,0.1111
+"MYTH","Okanagan Region","Colonization",2024,0.1887,0.1,0.3409
+"MYTH","Okanagan Region","Colonization",2025,0.1178,0,0.2972
+"MYTH","Okanagan Region","Persistence",2018,0.7797,0.5714,0.9545
+"MYTH","Okanagan Region","Persistence",2019,0.9013,0.7273,1
+"MYTH","Okanagan Region","Persistence",2020,0.8394,0.6667,1
+"MYTH","Okanagan Region","Persistence",2021,0.7029,0.4667,0.875
+"MYTH","Okanagan Region","Persistence",2022,0.9658,0.8333,1
+"MYTH","Okanagan Region","Persistence",2023,0.837,0.6667,1
+"MYTH","Okanagan Region","Persistence",2024,0.8342,0.6364,1
+"MYTH","Okanagan Region","Persistence",2025,0.7724,0.6,0.9286
+"MYTH","South Coastal Region","Colonization",2018,0.01,0,0.0625
+"MYTH","South Coastal Region","Colonization",2019,0.0091,0,0.0577
+"MYTH","South Coastal Region","Colonization",2020,0.008,0,0.0566
+"MYTH","South Coastal Region","Colonization",2021,0.0438,0,0.0943
+"MYTH","South Coastal Region","Colonization",2022,0.0175,0,0.0784
+"MYTH","South Coastal Region","Colonization",2023,0.0249,0,0.0784
+"MYTH","South Coastal Region","Colonization",2024,0.0965,0.0385,0.2157
+"MYTH","South Coastal Region","Colonization",2025,0.1258,0.0256,0.2391
+"MYTH","South Coastal Region","Persistence",2018,0.1707,0,1
+"MYTH","South Coastal Region","Persistence",2019,0.3546,0,1
+"MYTH","South Coastal Region","Persistence",2020,NA,NA,NA
+"MYTH","South Coastal Region","Persistence",2021,NA,NA,NA
+"MYTH","South Coastal Region","Persistence",2022,0.8978,0.5,1
+"MYTH","South Coastal Region","Persistence",2023,0.138,0,0.6667
+"MYTH","South Coastal Region","Persistence",2024,0.2797,0,1
+"MYTH","South Coastal Region","Persistence",2025,0.3202,0,0.9254

@@ -1,0 +1,64 @@
+"species","scope","year","mean","lo95","hi95","naive","n_surveyed"
+"LACI","BC (all sites)",2017,0.6371,0.5405,0.7405,0.5738,61
+"LACI","BC (all sites)",2018,0.6068,0.5459,0.6703,0.566,106
+"LACI","BC (all sites)",2019,0.5947,0.5459,0.6486,0.5891,129
+"LACI","BC (all sites)",2020,0.5482,0.4865,0.6108,0.4891,137
+"LACI","BC (all sites)",2021,0.5757,0.5243,0.6324,0.6,125
+"LACI","BC (all sites)",2022,0.5434,0.4919,0.6,0.4631,149
+"LACI","BC (all sites)",2023,0.6082,0.5568,0.6595,0.6549,113
+"LACI","BC (all sites)",2024,0.5986,0.5459,0.6486,0.5156,128
+"LACI","BC (all sites)",2025,0.7015,0.6595,0.7405,0.6822,129
+"LACI","BC (surveyed sites)",2017,0.6495,0.5902,0.7049,0.5738,61
+"LACI","BC (surveyed sites)",2018,0.6557,0.6132,0.7075,0.566,106
+"LACI","BC (surveyed sites)",2019,0.6346,0.6047,0.6744,0.5891,129
+"LACI","BC (surveyed sites)",2020,0.6002,0.5401,0.6642,0.4891,137
+"LACI","BC (surveyed sites)",2021,0.6584,0.624,0.704,0.6,125
+"LACI","BC (surveyed sites)",2022,0.5611,0.5101,0.6174,0.4631,149
+"LACI","BC (surveyed sites)",2023,0.6943,0.6637,0.7257,0.6549,113
+"LACI","BC (surveyed sites)",2024,0.5779,0.5391,0.625,0.5156,128
+"LACI","BC (surveyed sites)",2025,0.6997,0.6822,0.7287,0.6822,129
+"LACI","BC (region-weighted)",2017,0.659,0.5655,0.7544,NA,61
+"LACI","BC (region-weighted)",2018,0.643,0.5804,0.7053,NA,106
+"LACI","BC (region-weighted)",2019,0.6267,0.578,0.679,NA,129
+"LACI","BC (region-weighted)",2020,0.5954,0.5351,0.6567,NA,137
+"LACI","BC (region-weighted)",2021,0.612,0.5612,0.666,NA,125
+"LACI","BC (region-weighted)",2022,0.5869,0.5323,0.6447,NA,149
+"LACI","BC (region-weighted)",2023,0.6521,0.6059,0.6984,NA,113
+"LACI","BC (region-weighted)",2024,0.6365,0.5811,0.6909,NA,128
+"LACI","BC (region-weighted)",2025,0.7328,0.6937,0.772,NA,129
+"LACI","Kootenay Region",2017,0.547,0.359,0.7179,0.5,18
+"LACI","Kootenay Region",2018,0.6705,0.5128,0.8205,0.6,10
+"LACI","Kootenay Region",2019,0.5782,0.4615,0.6923,0.4231,26
+"LACI","Kootenay Region",2020,0.6922,0.5897,0.7949,0.6129,31
+"LACI","Kootenay Region",2021,0.7447,0.6667,0.8205,0.7333,30
+"LACI","Kootenay Region",2022,0.7089,0.6154,0.8205,0.5758,33
+"LACI","Kootenay Region",2023,0.8227,0.7436,0.8718,0.8333,30
+"LACI","Kootenay Region",2024,0.6819,0.5641,0.7949,0.5556,27
+"LACI","Kootenay Region",2025,0.7705,0.6923,0.8462,0.7333,30
+"LACI","Northern Region",2017,0.3497,0.15,0.6167,0.2667,15
+"LACI","Northern Region",2018,0.2356,0.1333,0.35,0.1724,29
+"LACI","Northern Region",2019,0.2503,0.1667,0.35,0.2121,33
+"LACI","Northern Region",2020,0.1801,0.1,0.2833,0.0968,31
+"LACI","Northern Region",2021,0.2349,0.1413,0.3421,0.2174,23
+"LACI","Northern Region",2022,0.1807,0.1167,0.25,0.1333,45
+"LACI","Northern Region",2023,0.2145,0.1167,0.3167,0.1429,21
+"LACI","Northern Region",2024,0.2571,0.2,0.3333,0.234,47
+"LACI","Northern Region",2025,0.4212,0.3667,0.5,0.4545,44
+"LACI","Okanagan Region",2017,0.8315,0.6364,0.9697,0.75,12
+"LACI","Okanagan Region",2018,0.8164,0.7273,0.9091,0.72,25
+"LACI","Okanagan Region",2019,0.8248,0.7576,0.8788,0.8077,26
+"LACI","Okanagan Region",2020,0.8184,0.7273,0.9091,0.7667,30
+"LACI","Okanagan Region",2021,0.7229,0.6364,0.8182,0.6333,30
+"LACI","Okanagan Region",2022,0.7616,0.697,0.8485,0.7083,24
+"LACI","Okanagan Region",2023,0.7851,0.7273,0.8485,0.7586,29
+"LACI","Okanagan Region",2024,0.822,0.7417,0.9091,0.8,25
+"LACI","Okanagan Region",2025,0.887,0.8485,0.9394,0.8571,28
+"LACI","South Coastal Region",2017,0.9076,0.7358,1,0.8125,16
+"LACI","South Coastal Region",2018,0.8497,0.7547,0.9245,0.7381,42
+"LACI","South Coastal Region",2019,0.8537,0.7925,0.9245,0.8409,44
+"LACI","South Coastal Region",2020,0.6909,0.566,0.8113,0.4889,45
+"LACI","South Coastal Region",2021,0.7455,0.6604,0.8302,0.6905,42
+"LACI","South Coastal Region",2022,0.6964,0.6038,0.8113,0.5745,47
+"LACI","South Coastal Region",2023,0.7859,0.6981,0.8679,0.7273,33
+"LACI","South Coastal Region",2024,0.7848,0.6792,0.8679,0.6897,29
+"LACI","South Coastal Region",2025,0.8526,0.7736,0.9245,0.8148,27

@@ -1,0 +1,64 @@
+"species","scope","year","mean","lo95","hi95","naive","n_surveyed"
+"LABO","BC (all sites)",2017,0.2615,0.1514,0.3892,0.1475,61
+"LABO","BC (all sites)",2018,0.1695,0.0973,0.2541,0.0849,106
+"LABO","BC (all sites)",2019,0.1732,0.0919,0.2677,0.0465,129
+"LABO","BC (all sites)",2020,0.2651,0.1784,0.3676,0.0949,137
+"LABO","BC (all sites)",2021,0.2573,0.1838,0.3459,0.144,125
+"LABO","BC (all sites)",2022,0.4158,0.3243,0.5514,0.2081,149
+"LABO","BC (all sites)",2023,0.4343,0.3027,0.5946,0.1416,113
+"LABO","BC (all sites)",2024,0.5371,0.4054,0.6649,0.2656,128
+"LABO","BC (all sites)",2025,0.5223,0.4703,0.573,0.4806,129
+"LABO","BC (surveyed sites)",2017,0.2184,0.1639,0.3115,0.1475,61
+"LABO","BC (surveyed sites)",2018,0.1414,0.0943,0.2075,0.0849,106
+"LABO","BC (surveyed sites)",2019,0.1459,0.0775,0.2248,0.0465,129
+"LABO","BC (surveyed sites)",2020,0.2517,0.1752,0.3504,0.0949,137
+"LABO","BC (surveyed sites)",2021,0.244,0.184,0.32,0.144,125
+"LABO","BC (surveyed sites)",2022,0.4307,0.3423,0.557,0.2081,149
+"LABO","BC (surveyed sites)",2023,0.3853,0.2566,0.5487,0.1416,113
+"LABO","BC (surveyed sites)",2024,0.5559,0.4219,0.6875,0.2656,128
+"LABO","BC (surveyed sites)",2025,0.5467,0.5116,0.5891,0.4806,129
+"LABO","BC (region-weighted)",2017,0.2308,0.1343,0.3508,NA,61
+"LABO","BC (region-weighted)",2018,0.1491,0.0848,0.2309,NA,106
+"LABO","BC (region-weighted)",2019,0.1564,0.0783,0.2499,NA,129
+"LABO","BC (region-weighted)",2020,0.257,0.1752,0.3624,NA,137
+"LABO","BC (region-weighted)",2021,0.2515,0.1788,0.3393,NA,125
+"LABO","BC (region-weighted)",2022,0.4184,0.3222,0.5533,NA,149
+"LABO","BC (region-weighted)",2023,0.4413,0.3011,0.6062,NA,113
+"LABO","BC (region-weighted)",2024,0.5504,0.414,0.6784,NA,128
+"LABO","BC (region-weighted)",2025,0.5467,0.495,0.5997,NA,129
+"LABO","Kootenay Region",2017,0.0774,0,0.2308,0,18
+"LABO","Kootenay Region",2018,0.0833,0,0.2051,0,10
+"LABO","Kootenay Region",2019,0.1174,0.0256,0.2564,0.0385,26
+"LABO","Kootenay Region",2020,0.2783,0.1795,0.4359,0.1935,31
+"LABO","Kootenay Region",2021,0.2532,0.1282,0.3846,0.1,30
+"LABO","Kootenay Region",2022,0.4846,0.3333,0.7179,0.2727,33
+"LABO","Kootenay Region",2023,0.5236,0.2821,0.7436,0.1333,30
+"LABO","Kootenay Region",2024,0.6509,0.4103,0.8462,0.2222,27
+"LABO","Kootenay Region",2025,0.7485,0.6667,0.8205,0.7,30
+"LABO","Northern Region",2017,0.6024,0.3167,0.8833,0.4667,15
+"LABO","Northern Region",2018,0.4064,0.2333,0.6,0.2759,29
+"LABO","Northern Region",2019,0.3828,0.2,0.5667,0.1515,33
+"LABO","Northern Region",2020,0.4479,0.2833,0.6167,0.1613,31
+"LABO","Northern Region",2021,0.432,0.2833,0.5833,0.3913,23
+"LABO","Northern Region",2022,0.5575,0.4167,0.7333,0.2667,45
+"LABO","Northern Region",2023,0.5669,0.4167,0.7333,0.1429,21
+"LABO","Northern Region",2024,0.6663,0.5167,0.8333,0.3617,47
+"LABO","Northern Region",2025,0.6349,0.55,0.7167,0.5227,44
+"LABO","Okanagan Region",2017,0.1843,0.0606,0.3939,0.1667,12
+"LABO","Okanagan Region",2018,0.097,0.0303,0.2121,0.04,25
+"LABO","Okanagan Region",2019,0.1075,0.0303,0.2424,0,26
+"LABO","Okanagan Region",2020,0.2347,0.1212,0.3939,0.0667,30
+"LABO","Okanagan Region",2021,0.26,0.1818,0.3939,0.1333,30
+"LABO","Okanagan Region",2022,0.4446,0.303,0.6364,0.25,24
+"LABO","Okanagan Region",2023,0.4927,0.303,0.697,0.1724,29
+"LABO","Okanagan Region",2024,0.6428,0.4848,0.7879,0.28,25
+"LABO","Okanagan Region",2025,0.6611,0.5455,0.7879,0.5714,28
+"LABO","South Coastal Region",2017,0.0593,0,0.2264,0,16
+"LABO","South Coastal Region",2018,0.0099,0,0.0566,0,42
+"LABO","South Coastal Region",2019,0.018,0,0.0943,0,44
+"LABO","South Coastal Region",2020,0.0673,0,0.1698,0,45
+"LABO","South Coastal Region",2021,0.0609,0.0377,0.1321,0.0476,42
+"LABO","South Coastal Region",2022,0.1867,0.0943,0.3396,0.0851,47
+"LABO","South Coastal Region",2023,0.1821,0.0755,0.3585,0.1212,33
+"LABO","South Coastal Region",2024,0.2414,0.1132,0.434,0.1379,29
+"LABO","South Coastal Region",2025,0.1421,0.0566,0.2453,0.0741,27

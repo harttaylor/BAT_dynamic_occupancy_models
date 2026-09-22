@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"MYCA","BC (all sites)","Colonization",2018,0.247,0.1045,0.3862
+"MYCA","BC (all sites)","Colonization",2019,0.4002,0.2742,0.539
+"MYCA","BC (all sites)","Colonization",2020,0.2424,0.1176,0.36
+"MYCA","BC (all sites)","Colonization",2021,0.3323,0.1908,0.4568
+"MYCA","BC (all sites)","Colonization",2022,0.2885,0.2,0.3781
+"MYCA","BC (all sites)","Colonization",2023,0.1566,0.0638,0.2586
+"MYCA","BC (all sites)","Colonization",2024,0.171,0.098,0.2459
+"MYCA","BC (all sites)","Colonization",2025,0.1627,0.1017,0.2373
+"MYCA","BC (all sites)","Persistence",2018,0.8878,0.7729,0.9811
+"MYCA","BC (all sites)","Persistence",2019,0.8534,0.7714,0.9262
+"MYCA","BC (all sites)","Persistence",2020,0.7691,0.6423,0.8939
+"MYCA","BC (all sites)","Persistence",2021,0.9331,0.88,0.9813
+"MYCA","BC (all sites)","Persistence",2022,0.8889,0.845,0.9291
+"MYCA","BC (all sites)","Persistence",2023,0.9094,0.8682,0.948
+"MYCA","BC (all sites)","Persistence",2024,0.9238,0.88,0.9597
+"MYCA","BC (all sites)","Persistence",2025,0.8993,0.8615,0.9308
+"MYCA","Kootenay Region","Colonization",2018,0.4142,0.125,0.7273
+"MYCA","Kootenay Region","Colonization",2019,0.4515,0.1111,0.8
+"MYCA","Kootenay Region","Colonization",2020,0.4739,0.2,0.7273
+"MYCA","Kootenay Region","Colonization",2021,0.447,0.25,0.6364
+"MYCA","Kootenay Region","Colonization",2022,0.5994,0.375,0.7778
+"MYCA","Kootenay Region","Colonization",2023,0.3821,0.1667,0.6667
+"MYCA","Kootenay Region","Colonization",2024,0.4378,0.2,0.6667
+"MYCA","Kootenay Region","Colonization",2025,0.4182,0.25,0.6081
+"MYCA","Kootenay Region","Persistence",2018,0.8896,0.7273,1
+"MYCA","Kootenay Region","Persistence",2019,0.7613,0.6176,0.9
+"MYCA","Kootenay Region","Persistence",2020,0.7735,0.6333,0.8929
+"MYCA","Kootenay Region","Persistence",2021,0.8934,0.7857,1
+"MYCA","Kootenay Region","Persistence",2022,0.9002,0.8333,0.9667
+"MYCA","Kootenay Region","Persistence",2023,0.8244,0.75,0.9062
+"MYCA","Kootenay Region","Persistence",2024,0.9009,0.8276,0.9375
+"MYCA","Kootenay Region","Persistence",2025,0.8638,0.7742,0.9355
+"MYCA","Northern Region","Colonization",2018,0.1322,0.027,0.2698
+"MYCA","Northern Region","Colonization",2019,0.226,0.1081,0.375
+"MYCA","Northern Region","Colonization",2020,0.1113,0,0.2353
+"MYCA","Northern Region","Colonization",2021,0.1627,0.0513,0.2927
+"MYCA","Northern Region","Colonization",2022,0.1717,0.0833,0.2683
+"MYCA","Northern Region","Colonization",2023,0.0797,0,0.1944
+"MYCA","Northern Region","Colonization",2024,0.0847,0.027,0.1515
+"MYCA","Northern Region","Colonization",2025,0.0351,0,0.1053
+"MYCA","Northern Region","Persistence",2018,0.8224,0.5833,1
+"MYCA","Northern Region","Persistence",2019,0.7568,0.5556,0.9444
+"MYCA","Northern Region","Persistence",2020,0.56,0.3158,0.8077
+"MYCA","Northern Region","Persistence",2021,0.8247,0.625,0.9575
+"MYCA","Northern Region","Persistence",2022,0.7201,0.5455,0.8824
+"MYCA","Northern Region","Persistence",2023,0.8518,0.7083,1
+"MYCA","Northern Region","Persistence",2024,0.7943,0.64,0.9091
+"MYCA","Northern Region","Persistence",2025,0.6727,0.5789,0.7619
+"MYCA","Okanagan Region","Colonization",2018,0.3561,0.0909,0.6364
+"MYCA","Okanagan Region","Colonization",2019,0.5966,0.267,0.875
+"MYCA","Okanagan Region","Colonization",2020,0.2685,0,0.6
+"MYCA","Okanagan Region","Colonization",2021,0.5535,0.2,0.75
+"MYCA","Okanagan Region","Colonization",2022,0.2806,0,0.5
+"MYCA","Okanagan Region","Colonization",2023,0.2779,0.1667,0.5
+"MYCA","Okanagan Region","Colonization",2024,0.2447,0,0.5
+"MYCA","Okanagan Region","Colonization",2025,0.3441,0.2,0.5
+"MYCA","Okanagan Region","Persistence",2018,0.9498,0.8214,1
+"MYCA","Okanagan Region","Persistence",2019,0.8976,0.8077,1
+"MYCA","Okanagan Region","Persistence",2020,0.7835,0.6,0.9637
+"MYCA","Okanagan Region","Persistence",2021,0.9922,0.95,1
+"MYCA","Okanagan Region","Persistence",2022,0.8796,0.8214,0.931
+"MYCA","Okanagan Region","Persistence",2023,0.9281,0.8519,0.9643
+"MYCA","Okanagan Region","Persistence",2024,0.9459,0.8846,0.9643
+"MYCA","Okanagan Region","Persistence",2025,0.9702,0.8929,1
+"MYCA","South Coastal Region","Colonization",2018,0.3414,0.0625,0.6341
+"MYCA","South Coastal Region","Colonization",2019,0.7106,0.5,0.8889
+"MYCA","South Coastal Region","Colonization",2020,0.5055,0,0.8333
+"MYCA","South Coastal Region","Colonization",2021,0.6903,0.3333,0.9
+"MYCA","South Coastal Region","Colonization",2022,0.6423,0,0.8333
+"MYCA","South Coastal Region","Colonization",2023,0.2921,0,0.6
+"MYCA","South Coastal Region","Colonization",2024,0.1755,0,0.6
+"MYCA","South Coastal Region","Colonization",2025,0.731,0.25,1
+"MYCA","South Coastal Region","Persistence",2018,0.8898,0.7368,1
+"MYCA","South Coastal Region","Persistence",2019,0.9529,0.8636,1
+"MYCA","South Coastal Region","Persistence",2020,0.8702,0.7333,0.9796
+"MYCA","South Coastal Region","Persistence",2021,0.9713,0.9167,1
+"MYCA","South Coastal Region","Persistence",2022,0.9628,0.9375,0.9804
+"MYCA","South Coastal Region","Persistence",2023,0.9804,0.9388,1
+"MYCA","South Coastal Region","Persistence",2024,0.9837,0.9388,1
+"MYCA","South Coastal Region","Persistence",2025,0.977,0.92,1

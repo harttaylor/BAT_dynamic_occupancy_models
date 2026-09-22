@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"MYCI","BC (all sites)","Colonization",2018,0.0319,0,0.0774
+"MYCI","BC (all sites)","Colonization",2019,0.0602,0.0318,0.0988
+"MYCI","BC (all sites)","Colonization",2020,0.0328,0.0065,0.0637
+"MYCI","BC (all sites)","Colonization",2021,0.0228,0,0.05
+"MYCI","BC (all sites)","Colonization",2022,0.0452,0.0196,0.0745
+"MYCI","BC (all sites)","Colonization",2023,0.0959,0.0662,0.1299
+"MYCI","BC (all sites)","Colonization",2024,0.036,0.0208,0.0643
+"MYCI","BC (all sites)","Colonization",2025,0.1167,0.0761,0.1633
+"MYCI","BC (all sites)","Persistence",2018,0.7279,0.5444,0.9
+"MYCI","BC (all sites)","Persistence",2019,0.8117,0.6667,0.9286
+"MYCI","BC (all sites)","Persistence",2020,0.7047,0.5758,0.8387
+"MYCI","BC (all sites)","Persistence",2021,0.8478,0.7667,0.8966
+"MYCI","BC (all sites)","Persistence",2022,0.9095,0.8276,0.9655
+"MYCI","BC (all sites)","Persistence",2023,0.9449,0.8485,1
+"MYCI","BC (all sites)","Persistence",2024,0.7061,0.5957,0.8182
+"MYCI","BC (all sites)","Persistence",2025,0.7542,0.65,0.8649
+"MYCI","Kootenay Region","Colonization",2018,0.0446,0,0.1538
+"MYCI","Kootenay Region","Colonization",2019,0.1217,0.0312,0.2308
+"MYCI","Kootenay Region","Colonization",2020,0.0725,0,0.1515
+"MYCI","Kootenay Region","Colonization",2021,0.0176,0,0.0791
+"MYCI","Kootenay Region","Colonization",2022,0.049,0,0.1143
+"MYCI","Kootenay Region","Colonization",2023,0.1849,0.1212,0.2647
+"MYCI","Kootenay Region","Colonization",2024,0.0598,0.0333,0.1379
+"MYCI","Kootenay Region","Colonization",2025,0.1404,0.0625,0.2424
+"MYCI","Kootenay Region","Persistence",2018,0.6747,0,1
+"MYCI","Kootenay Region","Persistence",2019,0.7281,0,1
+"MYCI","Kootenay Region","Persistence",2020,0.7371,0.4286,1
+"MYCI","Kootenay Region","Persistence",2021,0.5195,0.3333,0.6667
+"MYCI","Kootenay Region","Persistence",2022,0.7844,0.5,1
+"MYCI","Kootenay Region","Persistence",2023,0.889,0.6,1
+"MYCI","Kootenay Region","Persistence",2024,0.4607,0.25,0.7
+"MYCI","Kootenay Region","Persistence",2025,0.7644,0.5,1
+"MYCI","Northern Region","Colonization",2018,0.0014,0,0.0175
+"MYCI","Northern Region","Colonization",2019,0.0026,0,0.0172
+"MYCI","Northern Region","Colonization",2020,0.0012,0,0.0167
+"MYCI","Northern Region","Colonization",2021,8e-04,0,0.0167
+"MYCI","Northern Region","Colonization",2022,0.001,0,0.0167
+"MYCI","Northern Region","Colonization",2023,0.0059,0,0.0333
+"MYCI","Northern Region","Colonization",2024,0.0012,0,0.0169
+"MYCI","Northern Region","Colonization",2025,0.0041,0,0.0333
+"MYCI","Northern Region","Persistence",2018,0.2281,0,1
+"MYCI","Northern Region","Persistence",2019,NA,NA,NA
+"MYCI","Northern Region","Persistence",2020,NA,NA,NA
+"MYCI","Northern Region","Persistence",2021,NA,NA,NA
+"MYCI","Northern Region","Persistence",2022,NA,NA,NA
+"MYCI","Northern Region","Persistence",2023,NA,NA,NA
+"MYCI","Northern Region","Persistence",2024,NA,NA,NA
+"MYCI","Northern Region","Persistence",2025,NA,NA,NA
+"MYCI","Okanagan Region","Colonization",2018,0.4629,0,1
+"MYCI","Okanagan Region","Colonization",2019,0.4021,0.1667,0.6667
+"MYCI","Okanagan Region","Colonization",2020,0.2521,0,0.5
+"MYCI","Okanagan Region","Colonization",2021,0.1997,0,0.375
+"MYCI","Okanagan Region","Colonization",2022,0.4131,0.25,0.6523
+"MYCI","Okanagan Region","Colonization",2023,0.7539,0.5714,1
+"MYCI","Okanagan Region","Colonization",2024,0.087,0,0.5
+"MYCI","Okanagan Region","Colonization",2025,0.5992,0.25,0.875
+"MYCI","Okanagan Region","Persistence",2018,0.8027,0.6667,0.9524
+"MYCI","Okanagan Region","Persistence",2019,0.8368,0.717,0.9565
+"MYCI","Okanagan Region","Persistence",2020,0.7404,0.619,0.88
+"MYCI","Okanagan Region","Persistence",2021,0.9744,0.9,1
+"MYCI","Okanagan Region","Persistence",2022,0.9376,0.8696,1
+"MYCI","Okanagan Region","Persistence",2023,0.9604,0.88,1
+"MYCI","Okanagan Region","Persistence",2024,0.8307,0.7241,0.9333
+"MYCI","Okanagan Region","Persistence",2025,0.8347,0.7407,0.9535
+"MYCI","South Coastal Region","Colonization",2018,0.0034,0,0.0208
+"MYCI","South Coastal Region","Colonization",2019,0.0256,0.0189,0.0566
+"MYCI","South Coastal Region","Colonization",2020,0.0027,0,0.0196
+"MYCI","South Coastal Region","Colonization",2021,0.0057,0,0.0196
+"MYCI","South Coastal Region","Colonization",2022,0.0173,0,0.0377
+"MYCI","South Coastal Region","Colonization",2023,0.0446,0.0192,0.098
+"MYCI","South Coastal Region","Colonization",2024,0.0606,0.0208,0.12
+"MYCI","South Coastal Region","Colonization",2025,0.1628,0.1042,0.25
+"MYCI","South Coastal Region","Persistence",2018,0.0929,0,1
+"MYCI","South Coastal Region","Persistence",2019,NA,NA,NA
+"MYCI","South Coastal Region","Persistence",2020,0.0389,0,0.5
+"MYCI","South Coastal Region","Persistence",2021,NA,NA,NA
+"MYCI","South Coastal Region","Persistence",2022,NA,NA,NA
+"MYCI","South Coastal Region","Persistence",2023,0.9539,0.5,1
+"MYCI","South Coastal Region","Persistence",2024,0.4693,0.2,0.8333
+"MYCI","South Coastal Region","Persistence",2025,0.2878,0,0.6667

@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"EPFU","BC (all sites)","Colonization",2018,0.233,0.0631,0.4062
+"EPFU","BC (all sites)","Colonization",2019,0.1977,0.0741,0.3239
+"EPFU","BC (all sites)","Colonization",2020,0.2402,0.137,0.3462
+"EPFU","BC (all sites)","Colonization",2021,0.3888,0.2927,0.494
+"EPFU","BC (all sites)","Colonization",2022,0.2102,0.1132,0.3058
+"EPFU","BC (all sites)","Colonization",2023,0.2667,0.1538,0.3857
+"EPFU","BC (all sites)","Colonization",2024,0.2871,0.1702,0.4123
+"EPFU","BC (all sites)","Colonization",2025,0.4462,0.3333,0.5656
+"EPFU","BC (all sites)","Persistence",2018,0.7994,0.6952,0.9046
+"EPFU","BC (all sites)","Persistence",2019,0.7914,0.7017,0.8814
+"EPFU","BC (all sites)","Persistence",2020,0.7792,0.6814,0.8729
+"EPFU","BC (all sites)","Persistence",2021,0.9017,0.8366,0.957
+"EPFU","BC (all sites)","Persistence",2022,0.8632,0.7939,0.9289
+"EPFU","BC (all sites)","Persistence",2023,0.9297,0.877,0.975
+"EPFU","BC (all sites)","Persistence",2024,0.9378,0.8788,0.9847
+"EPFU","BC (all sites)","Persistence",2025,0.9127,0.8633,0.9559
+"EPFU","Kootenay Region","Colonization",2018,0.2897,0,0.5556
+"EPFU","Kootenay Region","Colonization",2019,0.183,0,0.4582
+"EPFU","Kootenay Region","Colonization",2020,0.1671,0,0.4286
+"EPFU","Kootenay Region","Colonization",2021,0.3211,0,0.5714
+"EPFU","Kootenay Region","Colonization",2022,0.4786,0.2,0.7
+"EPFU","Kootenay Region","Colonization",2023,0.583,0.25,0.8571
+"EPFU","Kootenay Region","Colonization",2024,0.5104,0,0.8333
+"EPFU","Kootenay Region","Colonization",2025,0.6895,0.3333,1
+"EPFU","Kootenay Region","Persistence",2018,0.9439,0.8276,1
+"EPFU","Kootenay Region","Persistence",2019,0.9354,0.8276,1
+"EPFU","Kootenay Region","Persistence",2020,0.9079,0.7759,1
+"EPFU","Kootenay Region","Persistence",2021,0.9335,0.8462,1
+"EPFU","Kootenay Region","Persistence",2022,0.9672,0.8929,1
+"EPFU","Kootenay Region","Persistence",2023,0.9472,0.8788,1
+"EPFU","Kootenay Region","Persistence",2024,0.9664,0.9143,1
+"EPFU","Kootenay Region","Persistence",2025,0.9909,0.9444,1
+"EPFU","Northern Region","Colonization",2018,0.1908,0,0.4167
+"EPFU","Northern Region","Colonization",2019,0.1436,0.0357,0.303
+"EPFU","Northern Region","Colonization",2020,0.1303,0.0303,0.2727
+"EPFU","Northern Region","Colonization",2021,0.1894,0.075,0.3429
+"EPFU","Northern Region","Colonization",2022,0.0812,0,0.1765
+"EPFU","Northern Region","Colonization",2023,0.1786,0.0667,0.3104
+"EPFU","Northern Region","Colonization",2024,0.2543,0.1429,0.3784
+"EPFU","Northern Region","Colonization",2025,0.4304,0.3333,0.5484
+"EPFU","Northern Region","Persistence",2018,0.7216,0.5444,0.9062
+"EPFU","Northern Region","Persistence",2019,0.7324,0.5789,0.8788
+"EPFU","Northern Region","Persistence",2020,0.6137,0.4615,0.7721
+"EPFU","Northern Region","Persistence",2021,0.7679,0.6,0.9
+"EPFU","Northern Region","Persistence",2022,0.7031,0.5,0.9091
+"EPFU","Northern Region","Persistence",2023,0.8601,0.6957,0.9575
+"EPFU","Northern Region","Persistence",2024,0.8977,0.7536,1
+"EPFU","Northern Region","Persistence",2025,0.7899,0.6786,0.9
+"EPFU","Okanagan Region","Colonization",2018,0.222,0,1
+"EPFU","Okanagan Region","Colonization",2019,0.2841,0,0.6
+"EPFU","Okanagan Region","Colonization",2020,0.2379,0,0.5556
+"EPFU","Okanagan Region","Colonization",2021,0.6191,0.4,0.8182
+"EPFU","Okanagan Region","Colonization",2022,0.3017,0,0.6
+"EPFU","Okanagan Region","Colonization",2023,0.513,0.25,0.75
+"EPFU","Okanagan Region","Colonization",2024,0.3975,0,1
+"EPFU","Okanagan Region","Colonization",2025,0.5079,0,1
+"EPFU","Okanagan Region","Persistence",2018,0.8822,0.7419,1
+"EPFU","Okanagan Region","Persistence",2019,0.9229,0.7917,1
+"EPFU","Okanagan Region","Persistence",2020,0.8358,0.6923,0.963
+"EPFU","Okanagan Region","Persistence",2021,0.947,0.875,1
+"EPFU","Okanagan Region","Persistence",2022,0.9063,0.8214,0.9667
+"EPFU","Okanagan Region","Persistence",2023,0.9829,0.9231,1
+"EPFU","Okanagan Region","Persistence",2024,0.9645,0.8966,1
+"EPFU","Okanagan Region","Persistence",2025,0.9755,0.9032,1
+"EPFU","South Coastal Region","Colonization",2018,0.2357,0,0.5
+"EPFU","South Coastal Region","Colonization",2019,0.233,0.0556,0.4091
+"EPFU","South Coastal Region","Colonization",2020,0.3756,0.2308,0.5172
+"EPFU","South Coastal Region","Colonization",2021,0.6397,0.5185,0.7778
+"EPFU","South Coastal Region","Colonization",2022,0.3795,0.1818,0.5833
+"EPFU","South Coastal Region","Colonization",2023,0.2863,0.0909,0.5
+"EPFU","South Coastal Region","Colonization",2024,0.2744,0.0769,0.5294
+"EPFU","South Coastal Region","Colonization",2025,0.4006,0.125,0.6429
+"EPFU","South Coastal Region","Persistence",2018,0.718,0.5581,0.8824
+"EPFU","South Coastal Region","Persistence",2019,0.6011,0.4375,0.7857
+"EPFU","South Coastal Region","Persistence",2020,0.7477,0.5909,0.9
+"EPFU","South Coastal Region","Persistence",2021,0.9325,0.8276,1
+"EPFU","South Coastal Region","Persistence",2022,0.8518,0.775,0.9302
+"EPFU","South Coastal Region","Persistence",2023,0.9128,0.8205,0.975
+"EPFU","South Coastal Region","Persistence",2024,0.9177,0.8021,1
+"EPFU","South Coastal Region","Persistence",2025,0.8899,0.7857,0.9744

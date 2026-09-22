@@ -1,0 +1,64 @@
+"species","scope","year","mean","lo95","hi95","naive","n_surveyed"
+"MYLU","BC (all sites)",2017,0.848,0.7809,0.9001,0.8361,61
+"MYLU","BC (all sites)",2018,0.8463,0.8,0.8865,0.8208,106
+"MYLU","BC (all sites)",2019,0.8949,0.8595,0.9243,0.876,129
+"MYLU","BC (all sites)",2020,0.8597,0.8216,0.8973,0.8175,137
+"MYLU","BC (all sites)",2021,0.95,0.9297,0.9676,0.936,125
+"MYLU","BC (all sites)",2022,0.9454,0.9243,0.9622,0.9463,149
+"MYLU","BC (all sites)",2023,0.9763,0.9568,0.9892,0.9646,113
+"MYLU","BC (all sites)",2024,0.9622,0.9405,0.9784,0.9609,128
+"MYLU","BC (all sites)",2025,0.9753,0.9514,0.9892,0.9767,129
+"MYLU","BC (surveyed sites)",2017,0.8369,0.8361,0.8525,0.8361,61
+"MYLU","BC (surveyed sites)",2018,0.8307,0.8208,0.8491,0.8208,106
+"MYLU","BC (surveyed sites)",2019,0.8906,0.876,0.9147,0.876,129
+"MYLU","BC (surveyed sites)",2020,0.8503,0.8248,0.8832,0.8175,137
+"MYLU","BC (surveyed sites)",2021,0.945,0.936,0.96,0.936,125
+"MYLU","BC (surveyed sites)",2022,0.9521,0.9463,0.9664,0.9463,149
+"MYLU","BC (surveyed sites)",2023,0.9722,0.9646,0.9823,0.9646,113
+"MYLU","BC (surveyed sites)",2024,0.9632,0.9609,0.9766,0.9609,128
+"MYLU","BC (surveyed sites)",2025,0.9826,0.9767,0.9922,0.9767,129
+"MYLU","BC (region-weighted)",2017,0.8367,0.7658,0.891,NA,61
+"MYLU","BC (region-weighted)",2018,0.8415,0.7956,0.8833,NA,106
+"MYLU","BC (region-weighted)",2019,0.8924,0.8601,0.9215,NA,129
+"MYLU","BC (region-weighted)",2020,0.8461,0.81,0.8821,NA,137
+"MYLU","BC (region-weighted)",2021,0.949,0.9278,0.9665,NA,125
+"MYLU","BC (region-weighted)",2022,0.9437,0.9211,0.9618,NA,149
+"MYLU","BC (region-weighted)",2023,0.9739,0.9555,0.9877,NA,113
+"MYLU","BC (region-weighted)",2024,0.9612,0.9384,0.9788,NA,128
+"MYLU","BC (region-weighted)",2025,0.9746,0.9524,0.9911,NA,129
+"MYLU","Kootenay Region",2017,0.7496,0.6154,0.8462,0.7222,18
+"MYLU","Kootenay Region",2018,0.8416,0.7179,0.9231,0.8,10
+"MYLU","Kootenay Region",2019,0.8624,0.7949,0.9231,0.8077,26
+"MYLU","Kootenay Region",2020,0.918,0.8462,0.9744,0.9032,31
+"MYLU","Kootenay Region",2021,0.9721,0.9487,1,0.9667,30
+"MYLU","Kootenay Region",2022,0.9706,0.9231,1,0.9697,33
+"MYLU","Kootenay Region",2023,0.997,0.9744,1,1,30
+"MYLU","Kootenay Region",2024,0.974,0.9487,1,0.963,27
+"MYLU","Kootenay Region",2025,0.9966,0.9744,1,1,30
+"MYLU","Northern Region",2017,0.9607,0.8667,1,1,15
+"MYLU","Northern Region",2018,0.9334,0.8667,0.9833,0.931,29
+"MYLU","Northern Region",2019,0.9562,0.9,1,0.9394,33
+"MYLU","Northern Region",2020,0.9296,0.8667,0.9833,0.9032,31
+"MYLU","Northern Region",2021,0.9649,0.9167,1,0.913,23
+"MYLU","Northern Region",2022,0.9768,0.95,1,0.9778,45
+"MYLU","Northern Region",2023,0.9936,0.9667,1,1,21
+"MYLU","Northern Region",2024,0.9801,0.95,0.9833,0.9787,47
+"MYLU","Northern Region",2025,0.9807,0.9667,0.9833,0.9773,44
+"MYLU","Okanagan Region",2017,0.8369,0.6667,0.9394,0.8333,12
+"MYLU","Okanagan Region",2018,0.8295,0.7273,0.9091,0.84,25
+"MYLU","Okanagan Region",2019,0.9124,0.8485,0.9697,0.9231,26
+"MYLU","Okanagan Region",2020,0.6994,0.6364,0.7879,0.6667,30
+"MYLU","Okanagan Region",2021,0.9291,0.8788,0.9394,0.9333,30
+"MYLU","Okanagan Region",2022,0.9211,0.8788,0.9394,0.9167,24
+"MYLU","Okanagan Region",2023,0.9419,0.9091,0.9697,0.931,29
+"MYLU","Okanagan Region",2024,0.9493,0.8788,1,0.96,25
+"MYLU","Okanagan Region",2025,0.9544,0.9091,1,0.9286,28
+"MYLU","South Coastal Region",2017,0.7997,0.6415,0.9057,0.8125,16
+"MYLU","South Coastal Region",2018,0.7615,0.6981,0.8113,0.7381,42
+"MYLU","South Coastal Region",2019,0.8386,0.7925,0.8868,0.8409,44
+"MYLU","South Coastal Region",2020,0.8374,0.7736,0.9057,0.8,45
+"MYLU","South Coastal Region",2021,0.9298,0.8868,0.9623,0.9286,42
+"MYLU","South Coastal Region",2022,0.9064,0.8679,0.9434,0.9149,47
+"MYLU","South Coastal Region",2023,0.9631,0.9245,0.9811,0.9394,33
+"MYLU","South Coastal Region",2024,0.9413,0.8868,0.9623,0.931,29
+"MYLU","South Coastal Region",2025,0.9667,0.9057,1,1,27

@@ -1,0 +1,64 @@
+"species","scope","year","mean","lo95","hi95","naive","n_surveyed"
+"MYCI","BC (all sites)",2017,0.1737,0.1243,0.227,0.1475,61
+"MYCI","BC (all sites)",2018,0.1517,0.1243,0.1838,0.1792,106
+"MYCI","BC (all sites)",2019,0.1741,0.1459,0.2108,0.1628,129
+"MYCI","BC (all sites)",2020,0.1499,0.1297,0.173,0.1606,137
+"MYCI","BC (all sites)",2021,0.1465,0.1297,0.1676,0.184,125
+"MYCI","BC (all sites)",2022,0.1717,0.1568,0.1892,0.1678,149
+"MYCI","BC (all sites)",2023,0.2416,0.2216,0.2703,0.3274,113
+"MYCI","BC (all sites)",2024,0.1977,0.173,0.2324,0.1953,128
+"MYCI","BC (all sites)",2025,0.2426,0.2108,0.2811,0.2636,129
+"MYCI","BC (surveyed sites)",2017,0.166,0.1475,0.1967,0.1475,61
+"MYCI","BC (surveyed sites)",2018,0.1839,0.1792,0.1981,0.1792,106
+"MYCI","BC (surveyed sites)",2019,0.1808,0.1628,0.2093,0.1628,129
+"MYCI","BC (surveyed sites)",2020,0.1754,0.1606,0.1971,0.1606,137
+"MYCI","BC (surveyed sites)",2021,0.1855,0.184,0.192,0.184,125
+"MYCI","BC (surveyed sites)",2022,0.1711,0.1678,0.1812,0.1678,149
+"MYCI","BC (surveyed sites)",2023,0.332,0.3274,0.3451,0.3274,113
+"MYCI","BC (surveyed sites)",2024,0.2041,0.1953,0.2266,0.1953,128
+"MYCI","BC (surveyed sites)",2025,0.2749,0.2636,0.2946,0.2636,129
+"MYCI","BC (region-weighted)",2017,0.23,0.1705,0.29,NA,61
+"MYCI","BC (region-weighted)",2018,0.2066,0.1731,0.2472,NA,106
+"MYCI","BC (region-weighted)",2019,0.231,0.1948,0.273,NA,129
+"MYCI","BC (region-weighted)",2020,0.2004,0.1737,0.2331,NA,137
+"MYCI","BC (region-weighted)",2021,0.1988,0.1783,0.2221,NA,125
+"MYCI","BC (region-weighted)",2022,0.231,0.2088,0.256,NA,149
+"MYCI","BC (region-weighted)",2023,0.3149,0.2915,0.3425,NA,113
+"MYCI","BC (region-weighted)",2024,0.2559,0.2223,0.2938,NA,128
+"MYCI","BC (region-weighted)",2025,0.3013,0.2661,0.3411,NA,129
+"MYCI","Kootenay Region",2017,0.0546,0,0.1795,0,18
+"MYCI","Kootenay Region",2018,0.079,0,0.2051,0,10
+"MYCI","Kootenay Region",2019,0.1695,0.0769,0.2564,0.1154,26
+"MYCI","Kootenay Region",2020,0.1862,0.1282,0.2564,0.1613,31
+"MYCI","Kootenay Region",2021,0.1125,0.0513,0.1538,0.0667,30
+"MYCI","Kootenay Region",2022,0.1339,0.1026,0.1795,0.1212,33
+"MYCI","Kootenay Region",2023,0.2788,0.2308,0.359,0.2667,30
+"MYCI","Kootenay Region",2024,0.1709,0.1026,0.2564,0.1111,27
+"MYCI","Kootenay Region",2025,0.246,0.1795,0.3333,0.2333,30
+"MYCI","Northern Region",2017,0.0348,0,0.1333,0,15
+"MYCI","Northern Region",2018,0.008,0,0.0333,0,29
+"MYCI","Northern Region",2019,0.0056,0,0.0333,0,33
+"MYCI","Northern Region",2020,0.0029,0,0.0167,0,31
+"MYCI","Northern Region",2021,0.0017,0,0.0167,0,23
+"MYCI","Northern Region",2022,0.0013,0,0.0167,0,45
+"MYCI","Northern Region",2023,0.0064,0,0.0333,0,21
+"MYCI","Northern Region",2024,0.002,0,0.0167,0,47
+"MYCI","Northern Region",2025,0.0048,0,0.0333,0,44
+"MYCI","Okanagan Region",2017,0.8048,0.6061,0.9697,0.75,12
+"MYCI","Okanagan Region",2018,0.7342,0.6364,0.8182,0.76,25
+"MYCI","Okanagan Region",2019,0.722,0.6364,0.8182,0.6538,26
+"MYCI","Okanagan Region",2020,0.6087,0.5152,0.7273,0.5667,30
+"MYCI","Okanagan Region",2021,0.6739,0.6364,0.7273,0.7,30
+"MYCI","Okanagan Region",2022,0.7663,0.697,0.8485,0.8333,24
+"MYCI","Okanagan Region",2023,0.9104,0.8485,0.9697,0.931,29
+"MYCI","Okanagan Region",2024,0.7648,0.6667,0.8485,0.76,25
+"MYCI","Okanagan Region",2025,0.7786,0.697,0.8788,0.75,28
+"MYCI","South Coastal Region",2017,0.0256,0,0.1132,0,16
+"MYCI","South Coastal Region",2018,0.0053,0,0.0377,0,42
+"MYCI","South Coastal Region",2019,0.027,0.0189,0.0566,0.0227,44
+"MYCI","South Coastal Region",2020,0.0041,0,0.0189,0,45
+"MYCI","South Coastal Region",2021,0.0069,0,0.0377,0,42
+"MYCI","South Coastal Region",2022,0.0224,0.0189,0.0377,0.0213,47
+"MYCI","South Coastal Region",2023,0.0642,0.0377,0.1321,0.0606,33
+"MYCI","South Coastal Region",2024,0.0857,0.0566,0.1509,0.1034,29
+"MYCI","South Coastal Region",2025,0.1756,0.1132,0.2642,0.2222,27

@@ -1,0 +1,64 @@
+"species","scope","year","mean","lo95","hi95","naive","n_surveyed"
+"EPFU","BC (all sites)",2017,0.7333,0.627,0.827,0.7049,61
+"EPFU","BC (all sites)",2018,0.6488,0.5838,0.7135,0.5755,106
+"EPFU","BC (all sites)",2019,0.5835,0.5243,0.6486,0.5194,129
+"EPFU","BC (all sites)",2020,0.5553,0.4973,0.6216,0.5255,137
+"EPFU","BC (all sites)",2021,0.6738,0.627,0.7243,0.704,125
+"EPFU","BC (all sites)",2022,0.6503,0.6108,0.6919,0.604,149
+"EPFU","BC (all sites)",2023,0.6984,0.6541,0.7459,0.7168,113
+"EPFU","BC (all sites)",2024,0.7423,0.7027,0.7784,0.7031,128
+"EPFU","BC (all sites)",2025,0.7929,0.7514,0.8378,0.7752,129
+"EPFU","BC (surveyed sites)",2017,0.7478,0.7049,0.8197,0.7049,61
+"EPFU","BC (surveyed sites)",2018,0.6294,0.5849,0.6792,0.5755,106
+"EPFU","BC (surveyed sites)",2019,0.599,0.5504,0.6589,0.5194,129
+"EPFU","BC (surveyed sites)",2020,0.6043,0.5547,0.6569,0.5255,137
+"EPFU","BC (surveyed sites)",2021,0.7522,0.72,0.792,0.704,125
+"EPFU","BC (surveyed sites)",2022,0.6565,0.6242,0.6913,0.604,149
+"EPFU","BC (surveyed sites)",2023,0.744,0.7257,0.7699,0.7168,113
+"EPFU","BC (surveyed sites)",2024,0.7311,0.7109,0.7578,0.7031,128
+"EPFU","BC (surveyed sites)",2025,0.798,0.7752,0.8217,0.7752,129
+"EPFU","BC (region-weighted)",2017,0.7484,0.6538,0.8331,NA,61
+"EPFU","BC (region-weighted)",2018,0.6741,0.6104,0.7375,NA,106
+"EPFU","BC (region-weighted)",2019,0.6195,0.5604,0.6808,NA,129
+"EPFU","BC (region-weighted)",2020,0.5893,0.5299,0.6541,NA,137
+"EPFU","BC (region-weighted)",2021,0.7072,0.6615,0.7561,NA,125
+"EPFU","BC (region-weighted)",2022,0.6913,0.6491,0.7321,NA,149
+"EPFU","BC (region-weighted)",2023,0.7409,0.6989,0.7817,NA,113
+"EPFU","BC (region-weighted)",2024,0.7776,0.7366,0.8146,NA,128
+"EPFU","BC (region-weighted)",2025,0.8238,0.784,0.8614,NA,129
+"EPFU","Kootenay Region",2017,0.7415,0.5897,0.8462,0.6667,18
+"EPFU","Kootenay Region",2018,0.7787,0.6667,0.8718,0.6,10
+"EPFU","Kootenay Region",2019,0.7721,0.6667,0.8462,0.6538,26
+"EPFU","Kootenay Region",2020,0.7422,0.641,0.8205,0.6129,31
+"EPFU","Kootenay Region",2021,0.7799,0.6923,0.8462,0.6333,30
+"EPFU","Kootenay Region",2022,0.8628,0.7949,0.9231,0.7879,33
+"EPFU","Kootenay Region",2023,0.9,0.8462,0.9487,0.8667,30
+"EPFU","Kootenay Region",2024,0.9222,0.8718,0.9744,0.8889,27
+"EPFU","Kootenay Region",2025,0.9673,0.9231,1,0.9667,30
+"EPFU","Northern Region",2017,0.6715,0.4167,0.8833,0.4667,15
+"EPFU","Northern Region",2018,0.5475,0.4333,0.6667,0.5517,29
+"EPFU","Northern Region",2019,0.4661,0.3667,0.5833,0.4848,33
+"EPFU","Northern Region",2020,0.3555,0.2667,0.4667,0.3871,31
+"EPFU","Northern Region",2021,0.3941,0.3,0.5167,0.4348,23
+"EPFU","Northern Region",2022,0.3239,0.25,0.4,0.2444,45
+"EPFU","Northern Region",2023,0.3999,0.3,0.5,0.2381,21
+"EPFU","Northern Region",2024,0.5129,0.45,0.5833,0.4894,47
+"EPFU","Northern Region",2025,0.615,0.55,0.6833,0.5909,44
+"EPFU","Okanagan Region",2017,0.8664,0.697,1,1,12
+"EPFU","Okanagan Region",2018,0.7908,0.697,0.8788,0.72,25
+"EPFU","Okanagan Region",2019,0.7916,0.697,0.8485,0.7308,26
+"EPFU","Okanagan Region",2020,0.7153,0.6061,0.8182,0.6,30
+"EPFU","Okanagan Region",2021,0.8562,0.7879,0.9091,0.8333,30
+"EPFU","Okanagan Region",2022,0.8212,0.7273,0.8788,0.7083,24
+"EPFU","Okanagan Region",2023,0.9028,0.8485,0.9394,0.8621,29
+"EPFU","Okanagan Region",2024,0.9107,0.8485,0.9697,0.92,25
+"EPFU","Okanagan Region",2025,0.9362,0.8788,1,0.8929,28
+"EPFU","South Coastal Region",2017,0.7142,0.5472,0.8868,0.75,16
+"EPFU","South Coastal Region",2018,0.5794,0.4906,0.6792,0.5,42
+"EPFU","South Coastal Region",2019,0.4481,0.3585,0.566,0.3409,44
+"EPFU","South Coastal Region",2020,0.5442,0.4717,0.6226,0.5111,45
+"EPFU","South Coastal Region",2021,0.7988,0.7358,0.8679,0.8095,42
+"EPFU","South Coastal Region",2022,0.7571,0.6981,0.8302,0.766,47
+"EPFU","South Coastal Region",2023,0.7608,0.6981,0.8302,0.7576,33
+"EPFU","South Coastal Region",2024,0.7648,0.6792,0.8302,0.6897,29
+"EPFU","South Coastal Region",2025,0.7766,0.6792,0.8679,0.7407,27

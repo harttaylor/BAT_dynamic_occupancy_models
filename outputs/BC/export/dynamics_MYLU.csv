@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"MYLU","BC (all sites)","Colonization",2018,0.5864,0.3636,0.7647
+"MYLU","BC (all sites)","Colonization",2019,0.6285,0.4696,0.7692
+"MYLU","BC (all sites)","Colonization",2020,0.6715,0.5,0.8182
+"MYLU","BC (all sites)","Colonization",2021,0.797,0.6909,0.8889
+"MYLU","BC (all sites)","Colonization",2022,0.5057,0.25,0.75
+"MYLU","BC (all sites)","Colonization",2023,0.7594,0.6,0.9
+"MYLU","BC (all sites)","Colonization",2024,0.6137,0.2,0.8333
+"MYLU","BC (all sites)","Colonization",2025,0.6305,0.25,0.8889
+"MYLU","BC (all sites)","Persistence",2018,0.892,0.8409,0.9392
+"MYLU","BC (all sites)","Persistence",2019,0.943,0.9067,0.9747
+"MYLU","BC (all sites)","Persistence",2020,0.8815,0.8434,0.9189
+"MYLU","BC (all sites)","Persistence",2021,0.9748,0.9551,0.9877
+"MYLU","BC (all sites)","Persistence",2022,0.968,0.9489,0.983
+"MYLU","BC (all sites)","Persistence",2023,0.9887,0.9711,1
+"MYLU","BC (all sites)","Persistence",2024,0.9701,0.95,0.9835
+"MYLU","BC (all sites)","Persistence",2025,0.9886,0.9714,1
+"MYLU","Kootenay Region","Colonization",2018,0.5351,0.2,0.8
+"MYLU","Kootenay Region","Colonization",2019,0.5367,0.2,0.8571
+"MYLU","Kootenay Region","Colonization",2020,0.7561,0.5,1
+"MYLU","Kootenay Region","Colonization",2021,0.9758,0.6667,1
+"MYLU","Kootenay Region","Colonization",2022,0.7351,0,1
+"MYLU","Kootenay Region","Colonization",2023,0.9884,1,1
+"MYLU","Kootenay Region","Colonization",2024,NA,NA,NA
+"MYLU","Kootenay Region","Colonization",2025,0.9778,0.5,1
+"MYLU","Kootenay Region","Persistence",2018,0.9405,0.8276,1
+"MYLU","Kootenay Region","Persistence",2019,0.9234,0.8485,1
+"MYLU","Kootenay Region","Persistence",2020,0.9427,0.8788,0.9722
+"MYLU","Kootenay Region","Persistence",2021,0.9721,0.9429,1
+"MYLU","Kootenay Region","Persistence",2022,0.977,0.9474,1
+"MYLU","Kootenay Region","Persistence",2023,0.9974,0.973,1
+"MYLU","Kootenay Region","Persistence",2024,0.9745,0.9474,1
+"MYLU","Kootenay Region","Persistence",2025,0.9974,0.9737,1
+"MYLU","Northern Region","Colonization",2018,0.6691,0,1
+"MYLU","Northern Region","Colonization",2019,0.8529,0.4,1
+"MYLU","Northern Region","Colonization",2020,0.7713,0,1
+"MYLU","Northern Region","Colonization",2021,0.6141,0,1
+"MYLU","Northern Region","Colonization",2022,0.4197,0,1
+"MYLU","Northern Region","Colonization",2023,0.9312,0.5,1
+"MYLU","Northern Region","Colonization",2024,NA,NA,NA
+"MYLU","Northern Region","Colonization",2025,0.0772,0,0.5
+"MYLU","Northern Region","Persistence",2018,0.9434,0.8772,0.9833
+"MYLU","Northern Region","Persistence",2019,0.9649,0.9107,1
+"MYLU","Northern Region","Persistence",2020,0.9375,0.875,0.9831
+"MYLU","Northern Region","Persistence",2021,0.9895,0.9474,1
+"MYLU","Northern Region","Persistence",2022,0.9939,0.9655,1
+"MYLU","Northern Region","Persistence",2023,0.9958,0.9661,1
+"MYLU","Northern Region","Persistence",2024,0.981,0.9661,0.9833
+"MYLU","Northern Region","Persistence",2025,0.998,0.9828,1
+"MYLU","Okanagan Region","Colonization",2018,0.893,0.5714,1
+"MYLU","Okanagan Region","Colonization",2019,0.7566,0.5,0.9
+"MYLU","Okanagan Region","Colonization",2020,0.2745,0,0.75
+"MYLU","Okanagan Region","Colonization",2021,0.7867,0.6667,0.9
+"MYLU","Okanagan Region","Colonization",2022,0.5201,0.25,0.75
+"MYLU","Okanagan Region","Colonization",2023,0.6088,0.5,1
+"MYLU","Okanagan Region","Colonization",2024,0.8701,0,1
+"MYLU","Okanagan Region","Colonization",2025,0.9198,0.5,1
+"MYLU","Okanagan Region","Persistence",2018,0.8197,0.7037,0.9167
+"MYLU","Okanagan Region","Persistence",2019,0.9431,0.88,1
+"MYLU","Okanagan Region","Persistence",2020,0.7355,0.6562,0.8247
+"MYLU","Okanagan Region","Persistence",2021,0.9897,0.9231,1
+"MYLU","Okanagan Region","Persistence",2022,0.9507,0.9,0.9677
+"MYLU","Okanagan Region","Persistence",2023,0.9681,0.9333,1
+"MYLU","Okanagan Region","Persistence",2024,0.9539,0.9032,1
+"MYLU","Okanagan Region","Persistence",2025,0.9578,0.9032,1
+"MYLU","South Coastal Region","Colonization",2018,0.4468,0.1111,0.7273
+"MYLU","South Coastal Region","Colonization",2019,0.5473,0.3333,0.75
+"MYLU","South Coastal Region","Colonization",2020,0.7122,0.5455,0.8889
+"MYLU","South Coastal Region","Colonization",2021,0.8189,0.625,0.9167
+"MYLU","South Coastal Region","Colonization",2022,0.4293,0,0.75
+"MYLU","South Coastal Region","Colonization",2023,0.7406,0.5,1
+"MYLU","South Coastal Region","Colonization",2024,0.2583,0,0.75
+"MYLU","South Coastal Region","Colonization",2025,0.5805,0,1
+"MYLU","South Coastal Region","Persistence",2018,0.8365,0.75,0.9231
+"MYLU","South Coastal Region","Persistence",2019,0.9289,0.878,0.9744
+"MYLU","South Coastal Region","Persistence",2020,0.8618,0.7907,0.9326
+"MYLU","South Coastal Region","Persistence",2021,0.9505,0.9111,0.9778
+"MYLU","South Coastal Region","Persistence",2022,0.9414,0.9167,0.9608
+"MYLU","South Coastal Region","Persistence",2023,0.9861,0.9388,1
+"MYLU","South Coastal Region","Persistence",2024,0.9638,0.92,0.9808
+"MYLU","South Coastal Region","Persistence",2025,0.9903,0.9574,1

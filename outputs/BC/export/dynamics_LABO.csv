@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"LABO","BC (all sites)","Colonization",2018,0.0187,0,0.0753
+"LABO","BC (all sites)","Colonization",2019,0.0344,0,0.1242
+"LABO","BC (all sites)","Colonization",2020,0.133,0.0338,0.2598
+"LABO","BC (all sites)","Colonization",2021,0.0461,0,0.1354
+"LABO","BC (all sites)","Colonization",2022,0.2485,0.1201,0.4236
+"LABO","BC (all sites)","Colonization",2023,0.1921,0.0283,0.4195
+"LABO","BC (all sites)","Colonization",2024,0.2629,0.0133,0.522
+"LABO","BC (all sites)","Colonization",2025,0.2163,0.0469,0.3818
+"LABO","BC (all sites)","Persistence",2018,0.6086,0.355,0.8571
+"LABO","BC (all sites)","Persistence",2019,0.852,0.5167,1
+"LABO","BC (all sites)","Persistence",2020,0.8926,0.6516,1
+"LABO","BC (all sites)","Persistence",2021,0.848,0.6364,1
+"LABO","BC (all sites)","Persistence",2022,0.8967,0.7211,1
+"LABO","BC (all sites)","Persistence",2023,0.7772,0.5434,0.9758
+"LABO","BC (all sites)","Persistence",2024,0.8888,0.7143,1
+"LABO","BC (all sites)","Persistence",2025,0.7814,0.6629,0.8791
+"LABO","Kootenay Region","Colonization",2018,0.032,0,0.141
+"LABO","Kootenay Region","Colonization",2019,0.0515,0,0.1944
+"LABO","Kootenay Region","Colonization",2020,0.1952,0.0323,0.3939
+"LABO","Kootenay Region","Colonization",2021,0.0396,0,0.1667
+"LABO","Kootenay Region","Colonization",2022,0.3342,0.12,0.6307
+"LABO","Kootenay Region","Colonization",2023,0.2785,0,0.6364
+"LABO","Kootenay Region","Colonization",2024,0.3397,0,0.7333
+"LABO","Kootenay Region","Colonization",2025,0.4068,0,0.7083
+"LABO","Kootenay Region","Persistence",2018,0.7112,0,1
+"LABO","Kootenay Region","Persistence",2019,0.8463,0,1
+"LABO","Kootenay Region","Persistence",2020,0.8693,0,1
+"LABO","Kootenay Region","Persistence",2021,0.8201,0.4167,1
+"LABO","Kootenay Region","Persistence",2022,0.9243,0.6667,1
+"LABO","Kootenay Region","Persistence",2023,0.7925,0.3559,1
+"LABO","Kootenay Region","Persistence",2024,0.9223,0.651,1
+"LABO","Kootenay Region","Persistence",2025,0.9153,0.75,1
+"LABO","Northern Region","Colonization",2018,0.0254,0,0.1551
+"LABO","Northern Region","Colonization",2019,0.0495,0,0.2099
+"LABO","Northern Region","Colonization",2020,0.1568,0,0.4062
+"LABO","Northern Region","Colonization",2021,0.0573,0,0.2429
+"LABO","Northern Region","Colonization",2022,0.2752,0.0667,0.5974
+"LABO","Northern Region","Colonization",2023,0.1946,0,0.5714
+"LABO","Northern Region","Colonization",2024,0.3018,0,0.7194
+"LABO","Northern Region","Colonization",2025,0.2311,0,0.5
+"LABO","Northern Region","Persistence",2018,0.6723,0.4321,0.9231
+"LABO","Northern Region","Persistence",2019,0.8649,0.5263,1
+"LABO","Northern Region","Persistence",2020,0.913,0.6765,1
+"LABO","Northern Region","Persistence",2021,0.8977,0.7032,1
+"LABO","Northern Region","Persistence",2022,0.929,0.7143,1
+"LABO","Northern Region","Persistence",2023,0.8711,0.6286,1
+"LABO","Northern Region","Persistence",2024,0.9458,0.7808,1
+"LABO","Northern Region","Persistence",2025,0.8378,0.6857,0.9444
+"LABO","Okanagan Region","Colonization",2018,0.0161,0,0.0968
+"LABO","Okanagan Region","Colonization",2019,0.0285,0,0.1379
+"LABO","Okanagan Region","Colonization",2020,0.152,0.0323,0.3333
+"LABO","Okanagan Region","Colonization",2021,0.0599,0,0.2
+"LABO","Okanagan Region","Colonization",2022,0.275,0.0833,0.5417
+"LABO","Okanagan Region","Colonization",2023,0.2002,0,0.5
+"LABO","Okanagan Region","Colonization",2024,0.3358,0,0.65
+"LABO","Okanagan Region","Colonization",2025,0.2996,0,0.6154
+"LABO","Okanagan Region","Persistence",2018,0.4799,0,1
+"LABO","Okanagan Region","Persistence",2019,0.8559,0,1
+"LABO","Okanagan Region","Persistence",2020,0.9136,0.3333,1
+"LABO","Okanagan Region","Persistence",2021,0.9167,0.5714,1
+"LABO","Okanagan Region","Persistence",2022,0.9197,0.625,1
+"LABO","Okanagan Region","Persistence",2023,0.8613,0.5358,1
+"LABO","Okanagan Region","Persistence",2024,0.9368,0.625,1
+"LABO","Okanagan Region","Persistence",2025,0.8456,0.6316,1
+"LABO","South Coastal Region","Colonization",2018,0.0064,0,0.0426
+"LABO","South Coastal Region","Colonization",2019,0.0148,0,0.0769
+"LABO","South Coastal Region","Colonization",2020,0.0622,0,0.1698
+"LABO","South Coastal Region","Colonization",2021,0.0354,0,0.1132
+"LABO","South Coastal Region","Colonization",2022,0.1668,0.0784,0.32
+"LABO","South Coastal Region","Colonization",2023,0.1512,0.0227,0.3696
+"LABO","South Coastal Region","Colonization",2024,0.1782,0,0.4255
+"LABO","South Coastal Region","Colonization",2025,0.1161,0.0233,0.2432
+"LABO","South Coastal Region","Persistence",2018,0.0835,0,1
+"LABO","South Coastal Region","Persistence",2019,NA,NA,NA
+"LABO","South Coastal Region","Persistence",2020,0.3904,0,1
+"LABO","South Coastal Region","Persistence",2021,0.4772,0,1
+"LABO","South Coastal Region","Persistence",2022,0.5073,0.1429,1
+"LABO","South Coastal Region","Persistence",2023,0.3124,0.0714,0.9091
+"LABO","South Coastal Region","Persistence",2024,0.531,0.1765,1
+"LABO","South Coastal Region","Persistence",2025,0.2284,0.0556,0.6

@@ -1,0 +1,14 @@
+"species","process","covariate","param","mean","lo95","hi95","lo50","hi50","f","excludes_zero"
+"MYEV","Initial occupancy","Elevation","b.psi.elev",0.0894,-0.6933,0.9293,-0.1869,0.3406,0.5924,FALSE
+"MYEV","Initial occupancy","Distance to water","b.psi.water",-0.1719,-0.9068,0.5015,-0.4077,0.0704,0.6731,FALSE
+"MYEV","Colonization","Elevation","b.gam.elev",1.0398,0.4427,1.8005,0.7955,1.2524,1,TRUE
+"MYEV","Colonization","Distance to water","b.gam.water",-0.3355,-0.7466,0.0374,-0.4663,-0.2018,0.962,FALSE
+"MYEV","Colonization","Distance to road","b.gam.road",-0.055,-0.4102,0.3,-0.1776,0.0654,0.6213,FALSE
+"MYEV","Colonization","Distance to harvest","b.gam.harv",-0.1703,-0.6484,0.2528,-0.3141,-0.019,0.7802,FALSE
+"MYEV","Persistence","Elevation","b.phi.elev",-0.3018,-0.6223,0.034,-0.4153,-0.192,0.9598,FALSE
+"MYEV","Persistence","Distance to water","b.phi.water",0.0369,-0.2828,0.333,-0.0668,0.1416,0.6053,FALSE
+"MYEV","Persistence","Distance to road","b.phi.road",0.1046,-0.1643,0.3789,0.0092,0.1995,0.7727,FALSE
+"MYEV","Persistence","Distance to harvest","b.phi.harv",-0.249,-0.704,0.1303,-0.3763,-0.1061,0.8984,FALSE
+"MYEV","Detection","Clutter","b.p.clutter",0.1249,0.0509,0.1967,0.0995,0.1497,1,TRUE
+"MYEV","Detection","Temperature","b.p.temp",0.2006,0.1231,0.2792,0.173,0.2274,1,TRUE
+"MYEV","Detection","Julian date","b.p.julian",0.0253,-0.0501,0.1012,-6e-04,0.052,0.744,FALSE

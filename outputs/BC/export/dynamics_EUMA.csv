@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"EUMA","BC (all sites)","Colonization",2018,0.0142,0,0.0552
+"EUMA","BC (all sites)","Colonization",2019,0.0077,0,0.0289
+"EUMA","BC (all sites)","Colonization",2020,0.0404,0.023,0.0684
+"EUMA","BC (all sites)","Colonization",2021,0.006,0,0.0237
+"EUMA","BC (all sites)","Colonization",2022,0.05,0.0118,0.0909
+"EUMA","BC (all sites)","Colonization",2023,0.0195,0,0.0542
+"EUMA","BC (all sites)","Colonization",2024,0.0202,0,0.064
+"EUMA","BC (all sites)","Colonization",2025,0.0194,0,0.0465
+"EUMA","BC (all sites)","Persistence",2018,0.5247,0.2439,0.8571
+"EUMA","BC (all sites)","Persistence",2019,0.8079,0.5833,1
+"EUMA","BC (all sites)","Persistence",2020,0.8158,0.6394,1
+"EUMA","BC (all sites)","Persistence",2021,0.641,0.4444,0.875
+"EUMA","BC (all sites)","Persistence",2022,0.8818,0.6364,1
+"EUMA","BC (all sites)","Persistence",2023,0.6867,0.4348,0.9286
+"EUMA","BC (all sites)","Persistence",2024,0.787,0.5769,1
+"EUMA","BC (all sites)","Persistence",2025,0.7429,0.5,0.9535
+"EUMA","Kootenay Region","Colonization",2018,0.0016,0,0.027
+"EUMA","Kootenay Region","Colonization",2019,5e-04,0,0
+"EUMA","Kootenay Region","Colonization",2020,0.0016,0,0.0256
+"EUMA","Kootenay Region","Colonization",2021,3e-04,0,0
+"EUMA","Kootenay Region","Colonization",2022,0.0023,0,0.0256
+"EUMA","Kootenay Region","Colonization",2023,0.0018,0,0.0256
+"EUMA","Kootenay Region","Colonization",2024,0.0011,0,0.0256
+"EUMA","Kootenay Region","Colonization",2025,0.0011,0,0.0256
+"EUMA","Kootenay Region","Persistence",2018,0.1656,0,1
+"EUMA","Kootenay Region","Persistence",2019,NA,NA,NA
+"EUMA","Kootenay Region","Persistence",2020,NA,NA,NA
+"EUMA","Kootenay Region","Persistence",2021,NA,NA,NA
+"EUMA","Kootenay Region","Persistence",2022,NA,NA,NA
+"EUMA","Kootenay Region","Persistence",2023,NA,NA,NA
+"EUMA","Kootenay Region","Persistence",2024,NA,NA,NA
+"EUMA","Kootenay Region","Persistence",2025,NA,NA,NA
+"EUMA","Northern Region","Colonization",2018,0.0012,0,0.0182
+"EUMA","Northern Region","Colonization",2019,6e-04,0,0.0167
+"EUMA","Northern Region","Colonization",2020,0.003,0,0.0175
+"EUMA","Northern Region","Colonization",2021,7e-04,0,0.0167
+"EUMA","Northern Region","Colonization",2022,0.0027,0,0.0169
+"EUMA","Northern Region","Colonization",2023,0.0025,0,0.0172
+"EUMA","Northern Region","Colonization",2024,9e-04,0,0.0167
+"EUMA","Northern Region","Colonization",2025,0.001,0,0.0167
+"EUMA","Northern Region","Persistence",2018,0.1496,0,1
+"EUMA","Northern Region","Persistence",2019,NA,NA,NA
+"EUMA","Northern Region","Persistence",2020,NA,NA,NA
+"EUMA","Northern Region","Persistence",2021,NA,NA,NA
+"EUMA","Northern Region","Persistence",2022,NA,NA,NA
+"EUMA","Northern Region","Persistence",2023,NA,NA,NA
+"EUMA","Northern Region","Persistence",2024,NA,NA,NA
+"EUMA","Northern Region","Persistence",2025,NA,NA,NA
+"EUMA","Okanagan Region","Colonization",2018,0.1025,0,0.3636
+"EUMA","Okanagan Region","Colonization",2019,0.0571,0,0.2083
+"EUMA","Okanagan Region","Colonization",2020,0.3059,0.1818,0.4783
+"EUMA","Okanagan Region","Colonization",2021,0.0537,0,0.2105
+"EUMA","Okanagan Region","Colonization",2022,0.3806,0.1111,0.64
+"EUMA","Okanagan Region","Colonization",2023,0.1941,0,0.5
+"EUMA","Okanagan Region","Colonization",2024,0.1737,0,0.5
+"EUMA","Okanagan Region","Colonization",2025,0.1791,0,0.4118
+"EUMA","Okanagan Region","Persistence",2018,0.7414,0.4615,1
+"EUMA","Okanagan Region","Persistence",2019,0.8474,0.6429,1
+"EUMA","Okanagan Region","Persistence",2020,0.8302,0.6667,1
+"EUMA","Okanagan Region","Persistence",2021,0.6536,0.45,0.8824
+"EUMA","Okanagan Region","Persistence",2022,0.8902,0.6667,1
+"EUMA","Okanagan Region","Persistence",2023,0.6958,0.4375,0.9311
+"EUMA","Okanagan Region","Persistence",2024,0.799,0.6,1
+"EUMA","Okanagan Region","Persistence",2025,0.7483,0.5,1
+"EUMA","South Coastal Region","Colonization",2018,5e-04,0,0
+"EUMA","South Coastal Region","Colonization",2019,3e-04,0,0
+"EUMA","South Coastal Region","Colonization",2020,0.0014,0,0.0189
+"EUMA","South Coastal Region","Colonization",2021,3e-04,0,0
+"EUMA","South Coastal Region","Colonization",2022,0.0016,0,0.0189
+"EUMA","South Coastal Region","Colonization",2023,0.0018,0,0.0189
+"EUMA","South Coastal Region","Colonization",2024,0.0019,0,0.0189
+"EUMA","South Coastal Region","Colonization",2025,0.0017,0,0.0189
+"EUMA","South Coastal Region","Persistence",2018,0.0974,0,1
+"EUMA","South Coastal Region","Persistence",2019,NA,NA,NA
+"EUMA","South Coastal Region","Persistence",2020,NA,NA,NA
+"EUMA","South Coastal Region","Persistence",2021,NA,NA,NA
+"EUMA","South Coastal Region","Persistence",2022,NA,NA,NA
+"EUMA","South Coastal Region","Persistence",2023,NA,NA,NA
+"EUMA","South Coastal Region","Persistence",2024,NA,NA,NA
+"EUMA","South Coastal Region","Persistence",2025,NA,NA,NA

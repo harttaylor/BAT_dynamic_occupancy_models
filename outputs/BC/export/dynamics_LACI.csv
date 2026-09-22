@@ -1,0 +1,81 @@
+"species","scope","process","year","mean","lo95","hi95"
+"LACI","BC (all sites)","Colonization",2018,0.319,0.1908,0.4653
+"LACI","BC (all sites)","Colonization",2019,0.2889,0.1857,0.3973
+"LACI","BC (all sites)","Colonization",2020,0.2789,0.1818,0.3816
+"LACI","BC (all sites)","Colonization",2021,0.3093,0.2109,0.4115
+"LACI","BC (all sites)","Colonization",2022,0.2731,0.1944,0.3553
+"LACI","BC (all sites)","Colonization",2023,0.2911,0.1761,0.399
+"LACI","BC (all sites)","Colonization",2024,0.3251,0.2384,0.4225
+"LACI","BC (all sites)","Colonization",2025,0.4209,0.3378,0.5127
+"LACI","BC (all sites)","Persistence",2018,0.7733,0.6615,0.8774
+"LACI","BC (all sites)","Persistence",2019,0.7926,0.7155,0.8698
+"LACI","BC (all sites)","Persistence",2020,0.7318,0.6348,0.8269
+"LACI","BC (all sites)","Persistence",2021,0.795,0.7182,0.875
+"LACI","BC (all sites)","Persistence",2022,0.7435,0.6451,0.8462
+"LACI","BC (all sites)","Persistence",2023,0.874,0.796,0.949
+"LACI","BC (all sites)","Persistence",2024,0.7751,0.6838,0.8636
+"LACI","BC (all sites)","Persistence",2025,0.8891,0.823,0.9478
+"LACI","Kootenay Region","Colonization",2018,0.4548,0.2246,0.6957
+"LACI","Kootenay Region","Colonization",2019,0.3747,0.125,0.6429
+"LACI","Kootenay Region","Colonization",2020,0.4973,0.2941,0.7059
+"LACI","Kootenay Region","Colonization",2021,0.4336,0.2222,0.6429
+"LACI","Kootenay Region","Colonization",2022,0.4233,0.2,0.6667
+"LACI","Kootenay Region","Colonization",2023,0.4879,0.2,0.7143
+"LACI","Kootenay Region","Colonization",2024,0.4913,0.25,0.8
+"LACI","Kootenay Region","Colonization",2025,0.5427,0.3333,0.75
+"LACI","Kootenay Region","Persistence",2018,0.8461,0.6452,1
+"LACI","Kootenay Region","Persistence",2019,0.6747,0.5,0.84
+"LACI","Kootenay Region","Persistence",2020,0.8334,0.6667,0.9565
+"LACI","Kootenay Region","Persistence",2021,0.8812,0.7778,0.963
+"LACI","Kootenay Region","Persistence",2022,0.8062,0.6667,0.9333
+"LACI","Kootenay Region","Persistence",2023,0.9556,0.8621,1
+"LACI","Kootenay Region","Persistence",2024,0.7228,0.5806,0.8529
+"LACI","Kootenay Region","Persistence",2025,0.8731,0.76,0.9643
+"LACI","Northern Region","Colonization",2018,0.2011,0.0938,0.3404
+"LACI","Northern Region","Colonization",2019,0.2145,0.1136,0.3333
+"LACI","Northern Region","Colonization",2020,0.1578,0.0488,0.28
+"LACI","Northern Region","Colonization",2021,0.2277,0.1224,0.3504
+"LACI","Northern Region","Colonization",2022,0.1691,0.0909,0.2619
+"LACI","Northern Region","Colonization",2023,0.1812,0.0769,0.3125
+"LACI","Northern Region","Colonization",2024,0.2403,0.1522,0.3442
+"LACI","Northern Region","Colonization",2025,0.3425,0.2667,0.4318
+"LACI","Northern Region","Persistence",2018,0.3189,0.1265,0.5833
+"LACI","Northern Region","Persistence",2019,0.3634,0.1111,0.6667
+"LACI","Northern Region","Persistence",2020,0.2444,0.0667,0.5
+"LACI","Northern Region","Persistence",2021,0.2619,0,0.6
+"LACI","Northern Region","Persistence",2022,0.2244,0.0625,0.4615
+"LACI","Northern Region","Persistence",2023,0.3628,0,0.7273
+"LACI","Northern Region","Persistence",2024,0.3235,0.0833,0.625
+"LACI","Northern Region","Persistence",2025,0.6512,0.4667,0.8462
+"LACI","Okanagan Region","Colonization",2018,0.4357,0,0.8333
+"LACI","Okanagan Region","Colonization",2019,0.2475,0,0.5714
+"LACI","Okanagan Region","Colonization",2020,0.4221,0.2,0.6667
+"LACI","Okanagan Region","Colonization",2021,0.096,0,0.4
+"LACI","Okanagan Region","Colonization",2022,0.3008,0.1111,0.5556
+"LACI","Okanagan Region","Colonization",2023,0.2454,0,0.5
+"LACI","Okanagan Region","Colonization",2024,0.382,0.125,0.7143
+"LACI","Okanagan Region","Colonization",2025,0.5841,0.3333,0.8571
+"LACI","Okanagan Region","Persistence",2018,0.8862,0.7857,0.96
+"LACI","Okanagan Region","Persistence",2019,0.9499,0.88,1
+"LACI","Okanagan Region","Persistence",2020,0.9024,0.8148,1
+"LACI","Okanagan Region","Persistence",2021,0.8614,0.7692,0.931
+"LACI","Okanagan Region","Persistence",2022,0.9362,0.8333,1
+"LACI","Okanagan Region","Persistence",2023,0.9526,0.875,1
+"LACI","Okanagan Region","Persistence",2024,0.9412,0.8571,1
+"LACI","Okanagan Region","Persistence",2025,0.951,0.8889,1
+"LACI","South Coastal Region","Colonization",2018,0.5753,0,1
+"LACI","South Coastal Region","Colonization",2019,0.583,0.25,0.875
+"LACI","South Coastal Region","Colonization",2020,0.4101,0.1429,0.7143
+"LACI","South Coastal Region","Colonization",2021,0.534,0.2857,0.7727
+"LACI","South Coastal Region","Colonization",2022,0.4968,0.2857,0.75
+"LACI","South Coastal Region","Colonization",2023,0.5005,0.25,0.75
+"LACI","South Coastal Region","Colonization",2024,0.5395,0.2727,0.8182
+"LACI","South Coastal Region","Colonization",2025,0.4948,0.2222,0.75
+"LACI","South Coastal Region","Persistence",2018,0.8757,0.7736,0.9744
+"LACI","South Coastal Region","Persistence",2019,0.8995,0.8261,0.9767
+"LACI","South Coastal Region","Persistence",2020,0.7392,0.5957,0.8737
+"LACI","South Coastal Region","Persistence",2021,0.837,0.7143,0.9459
+"LACI","South Coastal Region","Persistence",2022,0.7667,0.6316,0.9189
+"LACI","South Coastal Region","Persistence",2023,0.9086,0.7945,1
+"LACI","South Coastal Region","Persistence",2024,0.852,0.7073,0.973
+"LACI","South Coastal Region","Persistence",2025,0.9478,0.8537,1

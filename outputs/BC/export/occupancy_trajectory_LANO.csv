@@ -1,0 +1,64 @@
+"species","scope","year","mean","lo95","hi95","naive","n_surveyed"
+"LANO","BC (all sites)",2017,0.8064,0.7297,0.8703,0.8033,61
+"LANO","BC (all sites)",2018,0.8606,0.8108,0.9027,0.8302,106
+"LANO","BC (all sites)",2019,0.854,0.8162,0.8865,0.8527,129
+"LANO","BC (all sites)",2020,0.829,0.7892,0.8649,0.8029,137
+"LANO","BC (all sites)",2021,0.8324,0.7892,0.8703,0.848,125
+"LANO","BC (all sites)",2022,0.872,0.8432,0.8973,0.8859,149
+"LANO","BC (all sites)",2023,0.8851,0.8486,0.9189,0.9204,113
+"LANO","BC (all sites)",2024,0.9218,0.8919,0.9459,0.9219,128
+"LANO","BC (all sites)",2025,0.8735,0.8432,0.9027,0.8682,129
+"LANO","BC (surveyed sites)",2017,0.8055,0.8033,0.8197,0.8033,61
+"LANO","BC (surveyed sites)",2018,0.8717,0.8491,0.8962,0.8302,106
+"LANO","BC (surveyed sites)",2019,0.8627,0.8527,0.8837,0.8527,129
+"LANO","BC (surveyed sites)",2020,0.8396,0.8175,0.8686,0.8029,137
+"LANO","BC (surveyed sites)",2021,0.8623,0.848,0.88,0.848,125
+"LANO","BC (surveyed sites)",2022,0.8968,0.8859,0.9128,0.8859,149
+"LANO","BC (surveyed sites)",2023,0.9279,0.9204,0.9469,0.9204,113
+"LANO","BC (surveyed sites)",2024,0.9332,0.9219,0.9453,0.9219,128
+"LANO","BC (surveyed sites)",2025,0.874,0.8682,0.8915,0.8682,129
+"LANO","BC (region-weighted)",2017,0.8104,0.7346,0.87,NA,61
+"LANO","BC (region-weighted)",2018,0.8702,0.8224,0.9099,NA,106
+"LANO","BC (region-weighted)",2019,0.8646,0.8303,0.8974,NA,129
+"LANO","BC (region-weighted)",2020,0.8334,0.7933,0.8713,NA,137
+"LANO","BC (region-weighted)",2021,0.8353,0.7983,0.8703,NA,125
+"LANO","BC (region-weighted)",2022,0.8783,0.8498,0.9051,NA,149
+"LANO","BC (region-weighted)",2023,0.8917,0.8599,0.9216,NA,113
+"LANO","BC (region-weighted)",2024,0.9306,0.9017,0.9552,NA,128
+"LANO","BC (region-weighted)",2025,0.8842,0.8538,0.9104,NA,129
+"LANO","Kootenay Region",2017,0.7461,0.5897,0.8462,0.7222,18
+"LANO","Kootenay Region",2018,0.8497,0.7301,0.9487,0.8,10
+"LANO","Kootenay Region",2019,0.8103,0.7179,0.8718,0.7692,26
+"LANO","Kootenay Region",2020,0.7941,0.7179,0.8718,0.7742,31
+"LANO","Kootenay Region",2021,0.8119,0.7436,0.8718,0.8,30
+"LANO","Kootenay Region",2022,0.8617,0.7949,0.8974,0.8788,33
+"LANO","Kootenay Region",2023,0.8294,0.7692,0.8974,0.8,30
+"LANO","Kootenay Region",2024,0.9256,0.8462,0.9744,0.963,27
+"LANO","Kootenay Region",2025,0.8814,0.8205,0.9231,0.9,30
+"LANO","Northern Region",2017,0.7855,0.6333,0.9,0.7333,15
+"LANO","Northern Region",2018,0.8078,0.7167,0.8833,0.7931,29
+"LANO","Northern Region",2019,0.7512,0.6667,0.8167,0.697,33
+"LANO","Northern Region",2020,0.7457,0.6667,0.8167,0.6774,31
+"LANO","Northern Region",2021,0.7444,0.65,0.8333,0.7826,23
+"LANO","Northern Region",2022,0.7774,0.7167,0.8333,0.8222,45
+"LANO","Northern Region",2023,0.8014,0.7167,0.8833,0.9048,21
+"LANO","Northern Region",2024,0.8412,0.8,0.8833,0.8511,47
+"LANO","Northern Region",2025,0.7644,0.7,0.8167,0.7727,44
+"LANO","Okanagan Region",2017,0.8836,0.697,0.9697,0.9167,12
+"LANO","Okanagan Region",2018,0.951,0.8788,1,0.96,25
+"LANO","Okanagan Region",2019,0.9602,0.9091,1,0.9615,26
+"LANO","Okanagan Region",2020,0.8702,0.8182,0.9394,0.8333,30
+"LANO","Okanagan Region",2021,0.8466,0.7879,0.9091,0.8333,30
+"LANO","Okanagan Region",2022,0.9131,0.8485,0.9697,0.875,24
+"LANO","Okanagan Region",2023,0.9647,0.9394,1,0.9655,29
+"LANO","Okanagan Region",2024,0.9833,0.9394,1,1,25
+"LANO","Okanagan Region",2025,0.9429,0.8788,1,0.9286,28
+"LANO","South Coastal Region",2017,0.8265,0.6792,0.9245,0.875,16
+"LANO","South Coastal Region",2018,0.8722,0.8113,0.9245,0.7857,42
+"LANO","South Coastal Region",2019,0.9365,0.9057,0.9623,0.9545,44
+"LANO","South Coastal Region",2020,0.9234,0.8868,0.9623,0.8889,45
+"LANO","South Coastal Region",2021,0.9384,0.9057,0.9623,0.9286,42
+"LANO","South Coastal Region",2022,0.9612,0.9245,1,0.9574,47
+"LANO","South Coastal Region",2023,0.9713,0.9434,1,1,33
+"LANO","South Coastal Region",2024,0.9721,0.9434,0.9811,0.931,29
+"LANO","South Coastal Region",2025,0.9481,0.9057,0.9811,0.9259,27
