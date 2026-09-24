@@ -1,2 +1,2 @@
-# Dynamic Occupancy Analysis of Bat Acoustic Detection Data 
-Multi-season dynamic occupancy analysis using 9 years of bat acoustic detection data across British Columbia (BC) and Alaska (AK). Models estimate species-level trends in occupancy, colonization, and persistence while accounting for imperfect detection. Includes evaluation of optimal sampling deisgn scenarios to inform future monitoring efforts.
+# Bat population dynamics and trends across British Columbia and Alaska
+Bayesian dynamic occupancy models via JAGS of 9 years (2017-2025) of acoustic bat detection data across British Columbia (BC) + Alaska (AK). Models estimate species-level trends in occupancy, colonization, and persistence while accounting for imperfect detection. Includes evaluation of optimal sampling deisgn scenarios to inform future monitoring efforts.
