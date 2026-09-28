@@ -1,7 +1,7 @@
 # Data and model outputs are not stored on GitHub (large files, unpublished data)
-data/raw/
-outputs/BCAK/
-outputs/BCAK_regional/
+data/
+outputs/
+outputs/
 
 
 
