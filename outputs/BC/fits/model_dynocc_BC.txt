@@ -1,64 +1,119 @@
 
 model {
-  beta.psi[1] ~ dnorm(0, 0.368)
-  beta.psi[2] ~ dnorm(0, 0.368)
-  beta.psi[3] ~ dnorm(0, 0.368)
 
-  sigma.region ~ dunif(0, 5)
-  tau.region <- 1 / (sigma.region * sigma.region)
-  for (r in 1:nregion) { u.region[r] ~ dnorm(0, tau.region) }
+  # ---------------- initial occupancy (2017) ----------------
+  for (r in 1:nregion) { a.psi[r] ~ dnorm(0, 0.368) }
+  b.psi.elev  ~ dnorm(0, 0.368)
+  b.psi.water ~ dnorm(0, 0.368)
 
-  for (t in 1:(nyear-1)) { alpha.gamma[t] ~ dnorm(0, 0.368) }
-  beta.gamma[1] ~ dnorm(0, 0.368)
-  beta.gamma[2] ~ dnorm(0, 0.368)
+  # ---------------- colonisation ----------------
+  for (r in 1:nregion) { a.gam[r] ~ dnorm(0, 0.368) }
+  b.gam.elev  ~ dnorm(0, 0.368)
+  b.gam.water ~ dnorm(0, 0.368)
+  b.gam.road  ~ dnorm(0, 0.368)
+  b.gam.harv  ~ dnorm(0, 0.368)
 
-  for (t in 1:(nyear-1)) { alpha.phi[t] ~ dnorm(0, 0.368) }
-  beta.phi[1] ~ dnorm(0, 0.368)
-  beta.phi[2] ~ dnorm(0, 0.368)
+  sigma.gam ~ dt(0, 0.16, 1) T(0, )
+  tau.gam <- 1 / (sigma.gam * sigma.gam)
+  for (t in 1:(nyear - 1)) { eps.gam[t] ~ dnorm(0, tau.gam) }
 
-  for (k in 1:4) { beta.p[k] ~ dnorm(0, 0.368) }
+  # ---------------- persistence ----------------
+  for (r in 1:nregion) { a.phi[r] ~ dnorm(0, 0.368) }
+  b.phi.elev  ~ dnorm(0, 0.368)
+  b.phi.water ~ dnorm(0, 0.368)
+  b.phi.road  ~ dnorm(0, 0.368)
+  b.phi.harv  ~ dnorm(0, 0.368)
 
+  sigma.phi ~ dt(0, 0.16, 1) T(0, )
+  tau.phi <- 1 / (sigma.phi * sigma.phi)
+  for (t in 1:(nyear - 1)) { eps.phi[t] ~ dnorm(0, tau.phi) }
+
+  # ---------------- detection ----------------
+  a.p         ~ dnorm(0, 0.368)
+  b.p.clutter ~ dnorm(0, 0.368)
+  b.p.temp    ~ dnorm(0, 0.368)
+  b.p.julian  ~ dnorm(0, 0.368)
+
+  sigma.p ~ dt(0, 0.16, 1) T(0, )
+  tau.p <- 1 / (sigma.p * sigma.p)
+  for (t in 1:nyear) {
+    eps.p.raw[t] ~ dnorm(0, tau.p)
+    eps.p[t] <- eps.p.raw[t] * fit.p.year
+  }
+
+  # ---------------- ecological process ----------------
   for (i in 1:nsite) {
-    logit(psi[i]) <- beta.psi[1] + beta.psi[2]*elevation[i] +
-                     beta.psi[3]*water[i] + u.region[region[i]]
+
+    logit(psi[i]) <- a.psi[region[i]] +
+                     b.psi.elev  * elevation[i] +
+                     b.psi.water * dist_water[i]
+
     z[i, 1] ~ dbern(psi[i])
+
     for (t in 2:nyear) {
-      logit(gamma[i, t-1]) <- alpha.gamma[t-1] +
-                              beta.gamma[1]*dist_road[i] +
-                              beta.gamma[2]*dist_harvest[i]
-      logit(phi[i, t-1])   <- alpha.phi[t-1] +
-                              beta.phi[1]*dist_road[i] +
-                              beta.phi[2]*dist_harvest[i]
-      muZ[i, t] <- z[i, t-1]*phi[i, t-1] + (1 - z[i, t-1])*gamma[i, t-1]
+
+      logit(gamma[i, t-1]) <- a.gam[region[i]] + eps.gam[t-1] +
+                              b.gam.elev  * elevation[i] +
+                              b.gam.water * dist_water[i] +
+                              b.gam.road  * dist_road[i] +
+                              b.gam.harv  * dist_harvest[i, t-1]
+
+      logit(phi[i, t-1])   <- a.phi[region[i]] + eps.phi[t-1] +
+                              b.phi.elev  * elevation[i] +
+                              b.phi.water * dist_water[i] +
+                              b.phi.road  * dist_road[i] +
+                              b.phi.harv  * dist_harvest[i, t-1]
+
+      muZ[i, t] <- z[i, t-1] * phi[i, t-1] + (1 - z[i, t-1]) * gamma[i, t-1]
       z[i, t] ~ dbern(muZ[i, t])
     }
   }
 
+  # ---------------- observation process ----------------
+  # J[i,t] = 0 for unsurveyed site-years; those contribute nothing.
   for (i in 1:nsite) {
     for (t in 1:nyear) {
       for (j in 1:J[i, t]) {
-        logit(p[i, t, j]) <- beta.p[1] +
-                             beta.p[2]*clutter[i, t, nsurv[i, t, j]] +
-                             beta.p[3]*temp[i, t, nsurv[i, t, j]] +
-                             beta.p[4]*julian[i, t, nsurv[i, t, j]]
+        logit(p[i, t, j]) <- a.p + eps.p[t] +
+                             b.p.clutter * clutter[i] +
+                             b.p.temp    * temp[i, t, nsurv[i, t, j]] +
+                             b.p.julian  * julian[i, t, nsurv[i, t, j]]
         y[i, t, nsurv[i, t, j]] ~ dbern(z[i, t] * p[i, t, j])
       }
     }
   }
 
-  for (t in 1:nyear) { psi.fs[t] <- mean(z[, t]); n.occ[t] <- sum(z[, t]) }
-  for (t in 1:(nyear-1)) {
-    gamma.avg[t] <- ilogit(alpha.gamma[t])
-    phi.avg[t]   <- ilogit(alpha.phi[t])
-    ext.avg[t]   <- 1 - phi.avg[t]
+  # ---------------- derived: BC-wide occupancy ----------------
+  # psi.fs  : all sites, including unsurveyed site-years (carried forward by
+  #           the Markov process)
+  # psi.surv: surveyed site-years only. Effort is uneven across years, so the
+  #           two can diverge. Report both.
+  for (t in 1:nyear) {
+    psi.fs[t]   <- mean(z[, t])
+    psi.surv[t] <- inprod(z[, t], surv_ind[, t]) / max(n_surv[t], 1)
+    n.occ[t]    <- sum(z[, t])
+    p.year[t]   <- ilogit(a.p + eps.p[t])
   }
-  mean.gamma <- mean(gamma.avg[])
-  mean.phi   <- mean(phi.avg[])
-  mean.ext   <- 1 - mean.phi
-  lambda     <- psi.fs[nyear] / max(psi.fs[1], 0.001)
-  for (t in 1:nyear) { year.centered[t] <- t - (nyear + 1) / 2 }
-  trend.slope <- sum(year.centered[] * psi.fs[]) /
-                 sum(year.centered[] * year.centered[])
-  mean.p <- ilogit(beta.p[1])
+  mean.p <- ilogit(a.p)
+
+  # ---------------- derived: by region ----------------
+  # equilib.reg is the occupancy each region's rates imply. A trajectory that
+  # simply walks toward it is the Markov chain relaxing, not a trend.
+  for (r in 1:nregion) {
+    for (t in 1:nyear) {
+      n.occ.reg[r, t] <- inprod(z[, t], reg_ind[, r])
+      psi.reg[r, t]   <- n.occ.reg[r, t] / n_reg[r]
+    }
+    for (t in 1:(nyear - 1)) {
+      gamma.reg[r, t] <- ilogit(a.gam[r] + eps.gam[t])
+      phi.reg[r, t]   <- ilogit(a.phi[r] + eps.phi[t])
+      ext.reg[r, t]   <- 1 - phi.reg[r, t]
+    }
+    mean.gamma.reg[r] <- mean(gamma.reg[r, ])
+    mean.phi.reg[r]   <- mean(phi.reg[r, ])
+    mean.ext.reg[r]   <- 1 - mean.phi.reg[r]
+    equilib.reg[r]    <- mean.gamma.reg[r] / (mean.gamma.reg[r] + mean.ext.reg[r])
+    psi.reg.init[r]   <- ilogit(a.psi[r])
+  }
 }
 
