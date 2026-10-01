@@ -17,35 +17,6 @@
 #   site_year_occupancy_<SP>.csv    one row per site-year (for maps)
 #   site_summary_<SP>.csv           one row per site (for maps)
 #
-# ---------------------------------------------------------------------------
-# TWO KINDS OF SITE-LEVEL OCCUPANCY -- they answer different questions
-# ---------------------------------------------------------------------------
-#
-#   p_occupied    Posterior probability the site WAS occupied that year, given
-#                 everything observed there. Any site-year with a detection is
-#                 1. This is the "is it there?" number and is what the maps
-#                 show. It has no credible interval: the underlying quantity is
-#                 a yes/no, so its posterior is fully described by this one
-#                 probability. Set to NA for site-years that were not surveyed.
-#
-#   psi_expected  The occupancy probability the MODEL predicts for that site
-#                 from its region, covariates and the colonisation/persistence
-#                 dynamics, NOT conditioned on what was detected there. This is
-#                 the "how suitable is this site?" number. It has a proper 95%
-#                 CI and exists for every site-year, surveyed or not.
-#
-# For a site where the species was detected every year, p_occupied = 1 while
-# psi_expected might be 0.4. Both are correct; they are different things.
-#
-# ---------------------------------------------------------------------------
-# COLONISATION AND PERSISTENCE ARE "REALISED" RATES
-# ---------------------------------------------------------------------------
-# Computed directly from the latent occupancy states: the proportion of
-# unoccupied sites that became occupied, and the proportion of occupied sites
-# that stayed occupied. This averages over the actual covariate values at the
-# actual sites, rather than evaluating the rate at the covariate mean. Where a
-# region has almost no occupied sites, persistence is undefined in most
-# posterior draws and is left blank rather than estimated from noise.
 ################################################################################
 
 library(ggplot2)
