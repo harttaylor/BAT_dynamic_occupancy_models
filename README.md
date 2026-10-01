@@ -37,7 +37,6 @@ The differences between these scripts are:
 * R packages: dplyr, tidyr, ggplot2, jagsUI
 * JAGS installed separately: https://sourceforge.net/projects/mcmc-jags/
 
-
 ## Scripts 
 ### 00_harmonise_BC_AK.R
 * renames the AK columns to the BC names, e.g., Lat -> Latitude, harv_dist → DIST_HARVEST, road_dist → DIST_ROAD, X40K → F40K.
@@ -46,4 +45,33 @@ The differences between these scripts are:
 
 ### 01a_prepare_covariates.R
 * applies the data rules
-* builds and standardises covariates 
+* builds and standardizes covariates (distances are log-transformed because of right-scewing)
+* missing values are handled on a case-by-case basis
+- *distance to harvest*: unsurveyed years filled with the site's nearest known year
+- *clutter*: 40 sites had missing values in each year and were given the mean of all sites 
+- *nightly mean temperature*: missing values filled from the site-year, then region-year, then region mean
+
+### 01b_prepare_species_data.R
+* builds each species detection history
+* writes species_detection_summary.csv that is used in script 02 to fit models
+
+### 02_fit_models.R
+* fits one species at a time in top portion of script
+* fits all species in a loop at bottom part 
+
+### 03_figures_BC.R
+* creates BC figures and tables 
+
+### 03_figures_AK.R
+* creates AK figures and tables
+
+## Running the models 
+* Each species can take hours to fit
+* run_log_species.csv in the fits folder is updated after every species with run time and convergence (Rhat)
+
+### Adding new data
+1. Put the new data in data/raw/
+2. Update the file names at the top of 00 and 01a, and END_YEAR in 01a
+3. Run the scripts in order
+4. Check any detections in a region where a species has not been recorded before: one detection is enough to include that region in the model
+
