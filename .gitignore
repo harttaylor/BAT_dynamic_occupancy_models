@@ -1,6 +1,9 @@
 # Data and model outputs are not stored on GitHub (large files, unpublished data)
 data/
-outputs/
+outputs/BC/fits
+outputs/BC_AK/fits
+outputs/BC_AK/tables/per_species
+outputs/BC/tables/per_species
 scripts/Archive/
 
 
