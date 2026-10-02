@@ -75,7 +75,7 @@ The differences between these scripts are:
 3. Run the scripts in order
 4. Check any detections in a region where a species has not been recorded before: one detection is enough to include that region in the model
 
-### Outputs 
+## Outputs 
 * Iterations, run time and convergence for each species are recorded in run_log_species.csv in the fits folder
 * *Occupancy, colonization, and persistence trends:* summaries are calculated from the estimated occupancy state of every site in every year
 * Trends, each calculated in every posterior draw:
