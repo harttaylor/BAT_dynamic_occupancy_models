@@ -75,3 +75,15 @@ The differences between these scripts are:
 3. Run the scripts in order
 4. Check any detections in a region where a species has not been recorded before: one detection is enough to include that region in the model
 
+### Outputs 
+* Iterations, run time and convergence for each species are recorded in run_log_species.csv in the fits folder
+* *Occupancy, colonization, and persistence trends:* summaries are calculated from the estimated occupancy state of every site in every year
+* Trends, each calculated in every posterior draw:
+  - **Slope**: linear change in occupancy per year
+  - **Change**: occupancy in 2025 minus 2017
+  - **P(increase)**: the share of draws in 2025 where occupancy exceeds 2017. Trend figures colour species by this
+* *Covariate effects* are on the logit scale per 1 SD of the covariate. For distances, a positive effect means the probability is higher farther from the feature
+* *Site-level occupancy and maps:* maps colour each site by the model's estimate of whether it was occupied, which is corrected for imperfect detection. The symbol shape is raw data.
+  - Fig 6 (site map): colour = estimated occupancy averaged over the years each site was surveyed; shape = ever detected
+  - Fig 7 (map by year): surveyed site-years only; colour = that year's estimated occupancy; shape = detected that year.
+
